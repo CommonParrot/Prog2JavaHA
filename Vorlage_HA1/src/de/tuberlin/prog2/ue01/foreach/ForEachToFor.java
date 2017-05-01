@@ -1,7 +1,10 @@
 package de.tuberlin.prog2.ue01.foreach;
 
 import java.util.Iterator;
+
 import java.util.Vector;
+
+//does this change show up anywhere?
 
 public class ForEachToFor {
 	
