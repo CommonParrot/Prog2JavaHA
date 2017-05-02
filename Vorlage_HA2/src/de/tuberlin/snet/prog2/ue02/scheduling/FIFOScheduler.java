@@ -2,6 +2,7 @@ package de.tuberlin.snet.prog2.ue02.scheduling;
 
 import java.util.LinkedList;
 
+//this has changed quiet a bit hasn't it
 /**
  * Scheduler that works through threads, that are gathered in a linked list in
  * FIFO order
