@@ -1,4 +1,4 @@
- package de.tuberlin.snet.prog2.ue02.monitors;
+package de.tuberlin.snet.prog2.ue02.monitors;
 
 import java.util.Random;
 
@@ -38,21 +38,25 @@ public class Behandlungsraum {
 	/**
 	 * Treatment for patient threads
 	 * 
-	 * @param x the patient      
+	 * @param x
+	 *            the patient
 	 */
 	public void behandlung(Patient x) {
 		synchronized (this) {
 			try {
 
+				++patientz;
 				System.out.println(x + " in Behandlung");
-				Patient.sleep(behandlungszeit(10, 100));
+				Patient.sleep(behandlungszeit(1000, 10000));
 				System.out.println(x + " gute Besserung!");
 				x.setBehandelt(true);
+				--patientz;
 
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 		}
+
 	}
 
 	/**

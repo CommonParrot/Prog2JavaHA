@@ -45,7 +45,7 @@ public class Behandlungsraum {
 			try {
 
 				System.out.println(x + " in Behandlung");
-				Patient.sleep(behandlungszeit(10, 100));
+				Patient.sleep(behandlungszeit(1000, 100));
 				System.out.println(x + " gute Besserung!");
 				x.setBehandelt(true);
 

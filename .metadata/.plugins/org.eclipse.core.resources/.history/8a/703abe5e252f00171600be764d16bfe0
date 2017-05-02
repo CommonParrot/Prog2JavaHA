@@ -41,7 +41,16 @@ public class Patient extends Thread {
 
 		while (this.behandelt == false) {
 
-			raum.behandlung(this);
+			if (raum.patientz < raum.maxp) {
+				raum.behandlung(this);
+				break;
+			}
+
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
 
 		}
 	}

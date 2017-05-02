@@ -44,10 +44,12 @@ public class Behandlungsraum {
 		synchronized (this) {
 			try {
 
+				++patientz;
 				System.out.println(x + " in Behandlung");
-				Patient.sleep(behandlungszeit(10, 100));
+				Patient.sleep(behandlungszeit(1000, 10000));
 				System.out.println(x + " gute Besserung!");
 				x.setBehandelt(true);
+				--patientz;
 
 			} catch (InterruptedException e) {
 				e.printStackTrace();

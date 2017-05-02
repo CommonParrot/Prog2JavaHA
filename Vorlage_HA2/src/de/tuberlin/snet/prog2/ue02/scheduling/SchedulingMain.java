@@ -18,11 +18,17 @@ public class SchedulingMain {
 
 		schedule.addThread(prog2);
 		schedule.addThread(pi);
-		schedule.addThread(pi2);
-		schedule.addThread(pi3);
-		schedule.addThread(pi4);
+		
+		
+		
 
 		schedule.start();
+		
+		schedule.addThread(pi2);
+		
+		schedule.addThread(pi3);
+		
+		schedule.addThread(pi4);
 	}
 
 }
