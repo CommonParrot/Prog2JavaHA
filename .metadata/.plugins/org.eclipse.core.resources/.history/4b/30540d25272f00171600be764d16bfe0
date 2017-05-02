@@ -4,7 +4,6 @@ package de.tuberlin.snet.prog2.ue02.scheduling;
  * Use this class to test your FIFOScheduler-class. Created by prog2-team and
  * you!
  */
-//Git Test
 public class SchedulingMain {
 
 	public static void main(String[] args) {
@@ -19,13 +18,11 @@ public class SchedulingMain {
 
 		schedule.addThread(prog2);
 		schedule.addThread(pi);
-		
+		schedule.addThread(pi2);
 		
 		
 
 		schedule.start();
-		
-		schedule.addThread(pi2);
 		
 		schedule.addThread(pi3);
 		
