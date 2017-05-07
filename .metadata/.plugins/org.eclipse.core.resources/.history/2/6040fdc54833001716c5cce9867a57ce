@@ -38,13 +38,13 @@ public class PasswordSecurityCheck {
 	 * @throws Exception
 	 *             if password is not safe
 	 */
-	private void checkPassword(String password) throws PswdException {
+	private void checkPassword(String password) throws Exception {
 
 		String matchingBlacklist = blacklistChecker.checkOnBlacklists(password);
 		if (matchingBlacklist != null || password.length() < MININUM_PASSWORD_LENGTH || !hasUpperCase(password)
 				|| !hasSpecials(password)) {
 
-			throw new PswdException();
+			throw new Exception("Your Password does not match the security critera.");
 		}
 	}
 
