@@ -1,6 +1,8 @@
 package de.tuberlin.snet.prog2.ue03.watchtxt;
 
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 /**
  * 
@@ -12,11 +14,35 @@ import java.io.File;
 public class ReadTxt {
 	public static void main(String[] args) {
 		
-		new File("Read.txt");
+		File read = new File("Read.txt");
 		
-		ReadTextThread rtt = new ReadTextThread();
+		try {
+			
+			read.createNewFile();
+			
+		} catch (IOException e1) {
+			
+			e1.printStackTrace();
+			
+		}
 		
-		rtt.start();
+		System.out.println(read.getAbsolutePath());
+		
+		ReadTextRunnable rtr = new ReadTextRunnable(read);
+		Thread rtrt = new Thread(rtr);
+		rtrt.start();
+		
+		//ReadTextThread rtt = new ReadTextThread(read);
+		//rtt.start();
+	
+		try {
+			Thread.sleep(30000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+		rtrt.interrupt();
+		//rtt.interrupt();
 		
 	}
 }

@@ -1,0 +1,26 @@
+package de.tuberlin.snet.prog2.ue03.watchtxt;
+
+import java.io.File;
+
+public class ReadTextThread extends Thread{
+	
+	File text;
+	
+	ReadTextThread(File file){
+	
+		text = file;
+		
+	}
+	
+	@Override
+	public void run(){
+		
+		while(!isInterrupted()){
+			
+			
+			
+		}
+		
+	}
+
+}

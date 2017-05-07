@@ -1,0 +1,34 @@
+package de.tuberlin.snet.prog2.ue03.watchtxt;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+/**
+ * 
+ * Program execution instructions
+ * 
+ * @author Jakob Feldmann
+ *
+ */
+public class ReadTxt {
+	public static void main(String[] args) {
+		
+		File read = new File("Read.txt");
+		
+		System.out.println(read.getAbsolutePath());
+		
+		ReadTextThread rtt = new ReadTextThread(read);
+		
+		rtt.start();
+	
+		try {
+			Thread.sleep(30000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+		rtt.interrupt();
+		
+	}
+}
