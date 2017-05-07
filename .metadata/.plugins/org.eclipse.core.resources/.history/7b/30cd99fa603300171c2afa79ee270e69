@@ -1,0 +1,37 @@
+package de.tuberlin.snet.prog2.ue03.berlinsEinwohner;
+
+import java.util.Scanner;
+
+import com.sun.xml.internal.fastinfoset.util.StringArray;
+
+public class ReadSearch {
+	
+	private static void reader(){
+	
+		final Scanner reads = new Scanner("EWR_Ortsteile_Berlin_2015.csv");
+		while(reads.hasNextLine()){
+			
+			final String line = reads.nextLine();
+			String[] lines = line.split(";");
+			addBerliner(lines);
+			
+		}
+		reads.close();
+		
+	}
+	
+	private static void addBerliner(String[] line){
+		
+		Berliner neuerB = new Berliner(line[0], line[1], line[2], line[3], line[4], line[5], line[6], line[7]);
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		reader();
+		
+		
+	}
+	
+	
+}
