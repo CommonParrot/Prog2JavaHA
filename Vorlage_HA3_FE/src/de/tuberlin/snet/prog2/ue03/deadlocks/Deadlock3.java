@@ -11,6 +11,7 @@ public class Deadlock3 implements Runnable {
 		new Thread(this).start();
 	}
 	
+	@Override
 	public void run() {
 		long startTime = System.currentTimeMillis();
 		try {
