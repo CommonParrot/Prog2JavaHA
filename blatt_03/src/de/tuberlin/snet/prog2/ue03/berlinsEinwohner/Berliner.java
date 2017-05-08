@@ -1,7 +1,5 @@
 package de.tuberlin.snet.prog2.ue03.berlinsEinwohner;
 
-import java.util.ArrayList;
-
 public class Berliner {
 	
 	String bezirk;
@@ -49,10 +47,6 @@ public class Berliner {
 		altersgr = alters;
 		häufigkeit = häuf;
 		
-		einwohner.add(this);
-		
 	}
-	
-	static ArrayList<Berliner> einwohner = new ArrayList<Berliner>();
 	
 }
