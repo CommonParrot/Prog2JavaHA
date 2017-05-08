@@ -10,41 +10,43 @@ import java.util.List;
  *
  */
 public class PasswordSecurityCheck {
-	public BlacklistChecker blacklistChecker = new BlacklistChecker();
+	public BlacklistChecker blacklistChecker = new BlacklistChecker();	
 	private static final int MININUM_PASSWORD_LENGTH = 7;
-
+	
+	
 	public static void main(String[] args) {
-		List<String> passwordExamples = Arrays.asList("1234", "b0b", "gartner20", "Gartner30", "B?masdhlAS",
-				"Hmn1SB.HaU2d?");
-
+		List<String> passwordExamples = Arrays.asList("1234", "b0b", "gartner20",
+				"Gartner30", "B?masdhlAS", "Hmn1SB.HaU2d?" );
+				
 		PasswordSecurityCheck passwordChecker = new PasswordSecurityCheck();
 		for (String password : passwordExamples) {
 			try {
 				passwordChecker.checkPassword(password);
 				System.out.println("The password " + password + " is secure.");
-			} catch (Exception e) {
-				System.out.println(
-						"The password " + password + " is insecure for the following reason: " + e.getMessage());
+			} catch (WeakPasswordException e) {
+				System.out.println("The password " + password
+						+ " is insecure for the following reason: " + e.getMessage());
 			}
 		}
-	}
+	}	
+	
 
 	/**
-	 * Checks the security of the given password, throws an exception if it
-	 * doesn't hold the security criteria.
-	 * 
-	 * @param password
-	 *            password to check
-	 * @throws Exception
-	 *             if password is not safe
+	 * Checks the security of the given password,
+	 * throws an exception if it doesn't hold the
+	 * security criteria.
+	 * @param password password to check
+	 * @throws Exception if password is not safe
 	 */
-	private void checkPassword(String password) throws PswdException {
+	private void checkPassword(String password) throws WeakPasswordException {
 
 		String matchingBlacklist = blacklistChecker.checkOnBlacklists(password);
-		if (matchingBlacklist != null || password.length() < MININUM_PASSWORD_LENGTH || !hasUpperCase(password)
+		if (matchingBlacklist != null
+				|| password.length() < MININUM_PASSWORD_LENGTH
+				|| !hasUpperCase(password) 
 				|| !hasSpecials(password)) {
 
-			throw new PswdException();
+			throw new WeakPasswordException();
 		}
 	}
 

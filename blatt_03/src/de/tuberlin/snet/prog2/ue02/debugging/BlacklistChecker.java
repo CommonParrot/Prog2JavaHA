@@ -6,7 +6,6 @@ import java.util.TreeMap;
 
 /**
  * Checks if a password is on the blacklist.
- * 
  * @author PROG2-team
  *
  */
@@ -23,7 +22,7 @@ public class BlacklistChecker {
 	public BlacklistChecker() {
 		createData();
 	}
-
+	
 	/**
 	 * Fills the bad passwords lists.
 	 */
@@ -51,8 +50,8 @@ public class BlacklistChecker {
 	 */
 	public String checkOnBlacklists(String password) {
 
-		badPasswords = null;
-
+		//badPasswords = null; why?!?!?!
+		
 		for (String blacklistName : badPasswords.keySet()) {
 			if (badPasswords.get(blacklistName).contains(password.toLowerCase())) {
 				return blacklistName;

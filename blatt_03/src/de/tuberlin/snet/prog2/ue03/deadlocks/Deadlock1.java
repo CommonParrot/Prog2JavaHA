@@ -4,6 +4,7 @@ public class Deadlock1 implements Runnable {
 
 	private boolean done = false;
 	
+	@Override
 	public synchronized void run() {
 		while (!done) {
 			doSomething();

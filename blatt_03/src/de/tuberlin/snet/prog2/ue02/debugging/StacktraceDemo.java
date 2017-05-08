@@ -20,12 +20,12 @@ public class StacktraceDemo {
 		String text = "Erste Ausgabe.";
 		return text;
 	}
-
+	
 	private static void printSecondText() {
 		String text = getSecondText();
 		System.out.println(text);
 	}
-
+	
 	private static String getSecondText() {
 		String text = "Zweite Ausgabe.";
 		return text;
