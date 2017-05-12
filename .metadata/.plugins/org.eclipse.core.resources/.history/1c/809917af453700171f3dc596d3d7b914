@@ -1,6 +1,7 @@
 package de.tuberlin.snet.prog2.ue04.philosophers;
 
 import java.util.concurrent.Semaphore;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Represents a chopstick used by the philosophers. If a philosopher holds the
@@ -11,24 +12,44 @@ import java.util.concurrent.Semaphore;
  *
  */
 public class Chopstick {
-	
+
+	/** flag showing whether the chopstick is in use */
+	boolean inUse;
+
 	Semaphore inuse = new Semaphore(1);
 
 	/**
 	 * Waits until the chopstick is free and picks it up.
+	 * 
 	 * @throws InterruptedException
 	 */
 	public void pickUp() throws InterruptedException {
-		while (inuse.tryAcquire() == false) {
-			Thread.sleep(100);
+		while (inuse.tryAcquire(100, TimeUnit.MILLISECONDS) == false) {
+
 		}
 	}
 
 	/**
-	 * Puts the chopstick down so it can be used by another philosopher.
+	 * Puts the chopstick down so i can be used by another philosopher.
 	 */
 	public void putDown() {
 		inuse.release();
+	}
+
+	/**
+	 * Sets the {@link #inUse} variable.
+	 * 
+	 * @param newValue
+	 */
+	private void setInUse(boolean newValue) {
+		inUse = newValue;
+	}
+
+	/**
+	 * @return true, if the chopstick is in use, otherwise false
+	 */
+	private boolean isInUse() {
+		return inUse;
 	}
 
 }
