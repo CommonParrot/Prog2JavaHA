@@ -15,4 +15,5 @@
 <fullyQualifiedTypeName name="java.nio.file.Path"/>
 <fullyQualifiedTypeName name="java.nio.file.Paths"/>
 <fullyQualifiedTypeName name="jdk.nashorn.internal.runtime.regexp.joni.SearchAlgorithm"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Semaphore"/>
 </qualifiedTypeNameHistroy>
