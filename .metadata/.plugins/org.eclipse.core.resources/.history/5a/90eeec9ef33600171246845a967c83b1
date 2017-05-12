@@ -1,7 +1,6 @@
-package de.tuberlin.snet.prog2.ue04.treatment;
+ package de.tuberlin.snet.prog2.ue02.monitors;
 
 import java.util.Random;
-import java.util.concurrent.Semaphore;
 
 /**
  * 
@@ -16,7 +15,7 @@ public class Behandlungsraum {
 	int maxp;
 
 	// number of patients that are currently being treated
-	Semaphore patientz = new Semaphore(maxp);
+	int patientz = 0;
 
 	/**
 	 * Constructor that takes the max number of patients at a time
@@ -29,28 +28,31 @@ public class Behandlungsraum {
 	}
 
 	/**
+	 * 
+	 * @param patientz
+	 */
+	public void setPatientz(int patientz) {
+		this.patientz = patientz;
+	}
+
+	/**
 	 * Treatment for patient threads
 	 * 
-	 * @param x
-	 *            the patient
+	 * @param x the patient      
 	 */
 	public void behandlung(Patient x) {
-		try {
-			patientz.acquire();
+		synchronized (this) {
 			try {
+
 				System.out.println(x + " in Behandlung");
-				Patient.sleep(5000);
+				Patient.sleep(behandlungszeit(10, 100));
 				System.out.println(x + " gute Besserung!");
 				x.setBehandelt(true);
-				patientz.release();
 
-			} finally {
-				patientz.release();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
 			}
-		} catch (InterruptedException e) {
-			e.printStackTrace();
 		}
-
 	}
 
 	/**
@@ -79,7 +81,6 @@ public class Behandlungsraum {
 	 *            maximal treatment time
 	 * @return returns a treatment time as a integer in ms
 	 */
-	@SuppressWarnings("unused")
 	private int behandlungszeit(int anf, int end) {
 		int rng = randInt(anf, end);
 		return rng;
