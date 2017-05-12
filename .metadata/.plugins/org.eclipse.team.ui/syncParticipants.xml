@@ -13,7 +13,6 @@
 </mappings>
 </org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS>
 </org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS>
-<gitSynchronizeData container="C:/Users/Jakob/Documents/GitHub/Workspace/T7_HA3_JakobFeldmann" dstRev="refs/remotes/origin/master" inludeLocal="true" srcRev="HEAD"/>
 </data>
 </participant>
 <participant displayName="Git (T7_HA1_JakobF..._JakobFeldmann)" id="org.eclipse.egit.ui.modelCompareParticipant" secondary_id="1494585724760">
@@ -29,7 +28,6 @@
 </mappings>
 </org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS>
 </org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS>
-<gitSynchronizeData container="C:/Users/Jakob/Documents/GitHub/Workspace/T7_HA3_JakobFeldmann" dstRev="refs/remotes/origin/master" inludeLocal="true" srcRev="HEAD"/>
 </data>
 </participant>
 </syncparticipants>

@@ -8,25 +8,27 @@
 		<item value="250" key="dialogHeight"/>
 		<item value="350" key="dialogWidth"/>
 		<list key="textEntries">
+			<item value="3"/>
 			<item value="2"/>
-			<item value="1"/>
 			<item value="1"/>
 		</list>
 		<list key="orderedElements">
+			<item value="org.eclipse.jdt.ui.specific_content_assist.command(org.eclipse.jdt.ui.specific_content_assist.category_id=org.eclipse.jdt.ui.javaAllProposalCategory)"/>
 			<item value="org.eclipse.team.sync.views.SynchronizeView"/>
 			<item value="org.eclipse.egit.ui.internal.preferences.CommittingPreferencePage"/>
-			<item value="org.eclipse.jdt.ui.specific_content_assist.command(org.eclipse.jdt.ui.specific_content_assist.category_id=org.eclipse.jdt.ui.javaAllProposalCategory)"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.ui.commands"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.ui.preferences"/>
-			<item value="org.eclipse.ui.commands"/>
 		</list>
 		<list key="textArray">
+			<item value="comple"/>
+			<item value="pro"/>
+			<item value="con"/>
 			<item value="sy"/>
 			<item value="synch"/>
 			<item value="git"/>
-			<item value="comple"/>
 		</list>
 	</section>
 	<section name="ImportExportAction">
