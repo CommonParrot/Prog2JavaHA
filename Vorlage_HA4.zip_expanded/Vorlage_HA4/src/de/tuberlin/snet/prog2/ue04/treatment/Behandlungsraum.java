@@ -12,27 +12,26 @@ import java.util.concurrent.Semaphore;
  */
 public class Behandlungsraum {
 
-	// max number of patients
+	// max number of patients that can be treated simultaniously
 	int maxp;
 
-	// number of patients that are currently being treated
-	Semaphore patientz = new Semaphore(maxp);
-
+	// semaphore to keep patients at hold
+	Semaphore patientz;
+	
 	/**
 	 * Constructor that takes the max number of patients at a time
 	 * 
-	 * @param anz
-	 *            max number of patients
+	 * @param anz max number of patients
 	 */
 	public Behandlungsraum(int anz) {
 		maxp = anz;
+		patientz = new Semaphore(maxp);
 	}
 
 	/**
 	 * Treatment for patient threads
 	 * 
-	 * @param x
-	 *            the patient
+	 * @param x the patient
 	 */
 	public void behandlung(Patient x) {
 		try {
@@ -42,7 +41,6 @@ public class Behandlungsraum {
 				Patient.sleep(5000);
 				System.out.println(x + " gute Besserung!");
 				x.setBehandelt(true);
-				patientz.release();
 
 			} finally {
 				patientz.release();

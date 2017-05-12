@@ -1,13 +1,17 @@
 package de.tuberlin.snet.prog2.ue04.lock;
 
 import java.util.Random;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * The NewsTeam is the abstract representation of one group at the news agency.
  *
  */
 public abstract class NewsTeam extends Thread {
+
 	private NewsTicker ticker;
+	
+	static ReentrantLock locker = new ReentrantLock(true);
 
 	/**
 	 * constructs a new NewsTeam and set the ticker attribute
@@ -20,19 +24,22 @@ public abstract class NewsTeam extends Thread {
 	}
 
 	public void run() {
+		
 		while (true) {
-			long amount = (long) (new Random().nextDouble() * 20000);
+
 			try {
-				this.sleep(amount);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
+				locker.lock();
+				long amount = (long) (new Random().nextDouble() * 2000);
+				Thread.sleep(amount);
+				String message = getLatestNews();
+				ticker.displayMessage(message);
+				locker.unlock();
+			}
+
+			catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			String message = getLatestNews();
-			ticker.displayMessage(message);
-
 		}
-
 	}
 
 	/**
