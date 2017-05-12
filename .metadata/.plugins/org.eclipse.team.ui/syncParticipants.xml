@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <syncparticipants>
-<participant displayName="Git (blatt_03)" id="org.eclipse.egit.ui.modelCompareParticipant" secondary_id="1494173194894">
+<participant displayName="Git (T7_HA1_JakobF..._JakobFeldmann)" id="org.eclipse.egit.ui.modelCompareParticipant" secondary_id="1494525729536">
 <data forceFetch="false" root="false">
-<org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS org.eclipse.team.ui.MODEL_PARTICIPANT_DESCRIPTION="blatt_03" startupAction="none">
+<org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS org.eclipse.team.ui.MODEL_PARTICIPANT_DESCRIPTION="T7_HA1_JakobF..._JakobFeldmann" startupAction="none">
 <org.eclipse.team.ui.MODEL_PARTICIPANT_REFRESH_SCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
 <org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS modelProviderId="org.eclipse.core.resources.modelProvider">
 <mappings>
-<resources resourcePath="/blatt_03" resourceType="4"/>
+<resources resourcePath="/T7_HA3_JakobFeldmann" resourceType="4"/>
+<resources resourcePath="/T7_HA1_JakobFeldmann" resourceType="4"/>
+<resources resourcePath="/T7_HA4_JakobFeldmann" resourceType="4"/>
+<resources resourcePath="/T7_HA2_JakobFeldmann" resourceType="4"/>
 </mappings>
 </org.eclipse.team.ui.MODEL_PARTICIPANT_MAPPINGS>
 </org.eclipse.team.ui.MODEL_PARTICIPANT_SETTINGS>
-<gitSynchronizeData container="C:/Users/Jakob/Documents/GitHub/Workspace/HA3" dstRev="refs/remotes/origin/master" inludeLocal="true" srcRev="HEAD"/>
+<gitSynchronizeData container="C:/Users/Jakob/Documents/GitHub/Workspace/T7_HA3_JakobFeldmann" dstRev="refs/remotes/origin/master" inludeLocal="true" srcRev="HEAD"/>
 </data>
 </participant>
 </syncparticipants>
