@@ -12,6 +12,7 @@ import java.util.concurrent.Semaphore;
  */
 public class Chopstick {
 	
+	//determines if stick is in use
 	Semaphore inuse = new Semaphore(1);
 
 	/**

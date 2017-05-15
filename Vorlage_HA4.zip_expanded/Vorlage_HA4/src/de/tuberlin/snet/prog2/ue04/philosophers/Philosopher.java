@@ -24,6 +24,8 @@ public class Philosopher implements Runnable {
 	Chopstick rightChopstick;
 	String name;
 	Random random = new Random();
+	
+	//atomic variable to know how many philosophers got their left chopstick
 	private static AtomicInteger gotleftstick = new AtomicInteger();
 
 	public Philosopher(String name, Chopstick leftChopstick, Chopstick rightChopstick) {
@@ -31,7 +33,10 @@ public class Philosopher implements Runnable {
 		this.leftChopstick = leftChopstick;
 		this.rightChopstick = rightChopstick;
 	}
-
+	
+	/**
+	 * makes shure everyone is getting to eat
+	 */
 	@Override
 	public void run() {
 		try {
@@ -59,17 +64,28 @@ public class Philosopher implements Runnable {
 			e.printStackTrace();
 		}
 	}
-
+	
+	/**
+	 * lets philosophers think
+	 * @throws InterruptedException
+	 */
 	private void think() throws InterruptedException {
 		System.out.println(this + " denkt \"Momentchen mal...\" ");
 		Thread.sleep(random.nextInt(100));
 	}
-
+	
+	/**
+	 * lets philosophers eat
+	 * @throws InterruptedException
+	 */
 	private void eat() throws InterruptedException {
 		System.out.println(this + " *schmatzt*");
 		Thread.sleep(random.nextInt(100));
 	}
-
+	
+	/**
+	 * philosopher puts down left stick and begins to think a bit
+	 */
 	private void wohlüberlegtesWeglegenDesStäbchens() {
 		
 		this.leftChopstick.putDown();
@@ -82,7 +98,10 @@ public class Philosopher implements Runnable {
 			e.printStackTrace();
 		}
 	}
-
+	
+	/**
+	 * continues the order of eating and putting away chopsticks
+	 */
 	private void pickEatThink() {
 		try {
 			rightChopstick.pickUp();

@@ -11,6 +11,7 @@ public abstract class NewsTeam extends Thread {
 
 	private NewsTicker ticker;
 	
+	//locker to keep news from interfering
 	static ReentrantLock locker = new ReentrantLock(true);
 
 	/**

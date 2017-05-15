@@ -11,13 +11,18 @@
 		<item value="org.eclipse.emf.common:2.12.0.v20160420-0247"/>
 		<item value="org.eclipse.emf.ecore:2.12.0.v20160420-0247"/>
 		<item value="org.eclipse.epp.mpc:1.5.2.v20161005-1414"/>
-		<item value="org.eclipse.help:2.2.0.v20160907-1200"/>
-		<item value="org.eclipse.jdt:3.12.1.v20160907-1200"/>
+		<item value="org.eclipse.help:2.2.2.v20170301-0400"/>
+		<item value="org.eclipse.jdt:3.12.3.v20170301-0400"/>
 		<item value="org.eclipse.jgit:4.4.1.201607150455-r"/>
+		<item value="org.eclipse.jst.enterprise_ui.feature:3.8.0.v201701262139"/>
 		<item value="org.eclipse.m2e.feature:1.7.0.20160603-1933"/>
 		<item value="org.eclipse.pde:3.12.1.v20160907-1200"/>
-		<item value="org.eclipse.platform:4.6.1.v20160907-1200"/>
-		<item value="org.eclipse.rcp:4.6.1.v20160907-1200"/>
+		<item value="org.eclipse.platform:4.6.3.v20170301-0400"/>
+		<item value="org.eclipse.rcp:4.6.3.v20170301-0400"/>
+		<item value="org.eclipse.wst.jsdt.feature:2.0.200.v201612211424"/>
+		<item value="org.eclipse.wst.json_ui.feature:1.0.2.v201612232230"/>
+		<item value="org.eclipse.wst.web_ui.feature:3.8.2.v201702270442"/>
+		<item value="org.eclipse.wst.xml_ui.feature:3.8.2.v201702270442"/>
 		<item value="org.scala-ide.play2.feature:0.9.0.v-2_11-201612131054-063b4e8"/>
 		<item value="org.scala-ide.scala211.feature:4.5.0.201612131029"/>
 		<item value="org.scala-ide.sdk.feature:4.5.0.201612131100"/>
@@ -41,6 +46,10 @@
 			<item value="C:\Users\Jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\HA zips\T7_HA2_JakobFeldmann.zip"/>
 			<item value="C:\Users\Jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\HA zips\T07_HA1_Jakob_Feldmann.zip"/>
 		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="BasicNewProjectResourceWizard">
 	</section>
 	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
 		<item value="false" key="FilterByLocation"/>
