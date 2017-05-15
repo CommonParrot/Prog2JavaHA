@@ -71,7 +71,7 @@ public class Philosopher implements Runnable {
 	 */
 	private void think() throws InterruptedException {
 		System.out.println(this + " denkt \"Momentchen mal...\" ");
-		Thread.sleep(random.nextInt(100));
+		Thread.sleep(random.nextInt(1000));
 	}
 	
 	/**
@@ -80,7 +80,7 @@ public class Philosopher implements Runnable {
 	 */
 	private void eat() throws InterruptedException {
 		System.out.println(this + " *schmatzt*");
-		Thread.sleep(random.nextInt(100));
+		Thread.sleep(random.nextInt(1000));
 	}
 	
 	/**
