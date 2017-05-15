@@ -49,6 +49,7 @@
 		<item value="false" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\HA zips\T7_HA4_JakobFeldmann.zip"/>
 			<item value="C:\Users\Jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\HA zips\T7_HA3_JakobFeldmann.zip"/>
 			<item value="C:\Users\Jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\HA zips\T7_HA2_JakobFeldmann.zip"/>
 			<item value="C:\Users\Jakob\Desktop\T7_HA2_JakobFeldmann.zip"/>
