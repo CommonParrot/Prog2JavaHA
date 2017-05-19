@@ -1,0 +1,35 @@
+package de.tuberlin.snet.prog2.ue05.sportreporter;
+
+import java.util.concurrent.BlockingQueue;
+
+/**
+ * Represents a reporter posting comments of the current match to his
+ * live ticker.
+ * @author prog2-team
+ *
+ */
+public class SportReporter implements Runnable {
+	
+	String spiel;
+	BlockingQueue<String> ereignis;
+	
+	/**
+	 * Sport reporter used for comment a match.
+	 * @param match name of the match (e.g. names of the playing teams)
+	 * @param eventList list for posting the comments
+	 */
+	public SportReporter(String match, BlockingQueue<String> eventList) {
+		this.spiel = match;
+		this.ereignis = eventList;
+	}
+	
+	@Override
+	public void run() {
+		while(!Thread.currentThread().isInterrupted()){
+			
+			ereignis.(SoccerEvent.CORNER);
+			
+		}
+	}
+
+}

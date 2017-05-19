@@ -32,7 +32,14 @@ public class Amt {
 	 */
 	public static void main(String[] args) throws InterruptedException{
 		
+		ExecutorService execution = Executors.newFixedThreadPool(5);
 		
+		for(int i = 0; i < 40; i++){
+			execution.submit(new Kunde(i, Anliegen.values()[(int) (Math.random() * Anliegen.values().length)]));
+		}
+		
+		Thread.sleep(8000);
+		execution.shutdown();
 		
 	}
 }
