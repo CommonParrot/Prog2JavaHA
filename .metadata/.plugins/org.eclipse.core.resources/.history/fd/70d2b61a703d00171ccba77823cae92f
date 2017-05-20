@@ -1,0 +1,16 @@
+package de.tuberlin.snet.prog2.ue05.lambda;
+
+public class LambdaUebung {
+	
+	
+	
+	
+	
+	(int x) -> x*2;
+	(int x) -> x*x;
+	(int x, int y) -> x+y;
+	(int x, int y) -> Math.sqrt(Math.(x-y));
+	
+}
+
+

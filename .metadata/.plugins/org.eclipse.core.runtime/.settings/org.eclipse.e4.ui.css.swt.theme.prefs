@@ -1,2 +1,3 @@
+darkestApplied=true
 eclipse.preferences.version=1
-themeid=org.eclipse.e4.ui.css.theme.e4_default6.0,6.1,6.2,6.3,10.0
+themeid=com.codeaffine.eclipse.ui.swt.theme.win76.1

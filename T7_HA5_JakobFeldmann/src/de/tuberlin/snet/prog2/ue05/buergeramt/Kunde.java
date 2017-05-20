@@ -29,18 +29,19 @@ public class Kunde implements Runnable {
 	public Kunde(int i, Anliegen anliegen){
 		this.kundennummer = i;
 		this.anliegen = anliegen;
+	
 	}
 
 	@Override
 	public void run() {
 		try {
 			Random random = new Random();
-			System.out.println("\t" + this + ": Wird aufgerufen. Bitte an Platz " + Thread.currentThread().getName() + ". Antrag fuer " + anliegen + " wird bearbeitet.");
+			System.out.println("\t\n" + this + ": Wird aufgerufen. Bitte an Platz " + Thread.currentThread().getName() + ". Antrag fuer " + anliegen + " wird bearbeitet.");
 			Thread.sleep(random.nextInt(3000));
 		} catch (InterruptedException e) {
 			System.out.println("\t\t" + this + ": Bitte kommen Sie morgen wieder, ihr Anliegen kann gerade nicht bearbeitet werden.");
 		}
-		System.out.println("\t\t" + this + ": Antrag fuer " + anliegen + " bearbeitet. DER NAECHSTE BITTE!");
+		System.out.println("\t\t\n" + this + ": Antrag fuer " + anliegen + " bearbeitet. DER NAECHSTE BITTE!");
 
 	}
 

@@ -7,9 +7,9 @@
 		<item value="SirFailaL0t &lt;jakob-feldmann@outlook.com&gt;"/>
 	</list>
 	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
-		<item value="700" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|8.765218|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="476" key="DIALOG_HEIGHT"/>
+		<item value="666" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="458" key="DIALOG_HEIGHT"/>
 		<item value="369" key="DIALOG_X_ORIGIN"/>
 		<item value="163" key="DIALOG_Y_ORIGIN"/>
 		<list key="sashWeights">
@@ -19,11 +19,7 @@
 	</section>
 	<section name="GitCommitMessageComponent">
 		<list key="C:\Users\Jakob\Documents\GitHub\Workspace\.git">
-			<item value="false"/>
-			<item value="SirFailaL0t &lt;jakob-feldmann@outlook.com&gt;"/>
-			<item value="n"/>
-			<item value="SirFailaL0t &lt;jakob-feldmann@outlook.com&gt;"/>
-			<item value="f78bcf11e7b6081408de4989fac06fe9988b80c4"/>
+			<item value="empty"/>
 		</list>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.staging.StagingView">

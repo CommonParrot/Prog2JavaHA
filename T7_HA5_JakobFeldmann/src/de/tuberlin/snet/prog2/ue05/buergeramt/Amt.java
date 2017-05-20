@@ -1,10 +1,7 @@
 package de.tuberlin.snet.prog2.ue05.buergeramt;
 
-import java.util.ArrayList;
-import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 
 /**
  * Represents an Office with a limited number of workplaces for handling a {@link Kunde} 
@@ -32,7 +29,7 @@ public class Amt {
 	 */
 	public static void main(String[] args) throws InterruptedException{
 		
-		ExecutorService execution = Executors.newFixedThreadPool(5);
+		ExecutorService execution = Executors.newFixedThreadPool(arbeitsplaetze);
 		
 		for(int i = 0; i < 40; i++){
 			execution.submit(new Kunde(i, Anliegen.values()[(int) (Math.random() * Anliegen.values().length)]));
