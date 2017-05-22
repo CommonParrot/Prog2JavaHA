@@ -33,9 +33,12 @@ public class SportReporter implements Runnable {
 
 	@Override
 	public void run() {
+		
+		SoccerEvent neu;
+		
 		while (!Thread.currentThread().isInterrupted()) {
 
-			SoccerEvent neu = SoccerEvent.getRandomEvent();
+			 neu = SoccerEvent.getRandomEvent();
 
 			try {
 				Thread.sleep(random.nextInt(6000));

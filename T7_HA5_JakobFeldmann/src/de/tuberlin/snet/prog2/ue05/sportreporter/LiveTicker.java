@@ -11,9 +11,13 @@ import java.util.concurrent.LinkedBlockingQueue;
  *
  */
 public class LiveTicker implements Runnable {
-
+	
+	//List of events that are going to be printed
 	public LinkedBlockingQueue<String> eventList = new LinkedBlockingQueue<>();
-
+	
+	/**
+	 * prints out the news that were send in by the reporters
+	 */
 	@Override
 	public void run() {
 
@@ -30,14 +34,18 @@ public class LiveTicker implements Runnable {
 		}
 
 	}
-
+	
 	/**
 	 * @return returns the list containing the comments
 	 */
 	public BlockingQueue<String> getEventList() {
 		return eventList;
 	}
-
+	
+	/**
+	 * Creates reporter teams, starts and suspends this
+	 * @param args
+	 */
 	public static void main(String[] args) {
 
 		LiveTicker liveTicker = new LiveTicker();

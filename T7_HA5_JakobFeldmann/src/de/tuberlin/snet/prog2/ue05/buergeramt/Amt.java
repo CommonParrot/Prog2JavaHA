@@ -32,7 +32,7 @@ public class Amt {
 		ExecutorService execution = Executors.newFixedThreadPool(arbeitsplaetze);
 		
 		for(int i = 0; i < 40; i++){
-			execution.submit(new Kunde(i, Anliegen.values()[(int) (Math.random() * Anliegen.values().length)]));
+			execution.submit(new Kunde(i, Anliegen.values()[(int) (Math.random() * Anliegen.values().length-1)]));
 		}
 		
 		Thread.sleep(8000);

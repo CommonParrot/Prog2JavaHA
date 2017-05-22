@@ -25,7 +25,7 @@ public enum SoccerEvent {
 
 	public static SoccerEvent getRandomEvent() {
 
-		return values()[(int) (Math.random() * values().length)];
+		return values()[(int) (Math.random() * values().length-1)];
 
 	}
 
