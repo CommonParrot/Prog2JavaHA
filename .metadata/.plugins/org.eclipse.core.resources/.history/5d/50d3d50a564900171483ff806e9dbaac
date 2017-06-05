@@ -1,0 +1,59 @@
+package de.tuberlin.snet.prog2.ue07.chinesecheckers.model;
+
+import java.util.ArrayList;
+
+public class Turn {
+	
+	ArtificialPlayer pone;
+	Piece figur;
+	Position goal;
+	ArrayList<Piece> jumplist;
+	float score;
+
+	public Position getGoal() {
+		if(!this.jumplist.isEmpty()){
+			return GameState.getLastPosition(getFigur(), getJumplist());
+		}
+		else{
+			return figur.position;
+		}
+	}
+
+	public void setGoal(Position goal) {
+		this.goal = goal;
+	}
+
+	public ArtificialPlayer getPone() {
+		return pone;
+	}
+
+	public Piece getFigur() {
+		return figur;
+	}
+
+	public ArrayList<Piece> getJumplist() {
+		return jumplist;
+	}
+
+	public float getScore() {
+		return pone.getTurnBenefit(figur.position, getGoal());
+	}
+	
+	Turn(ArtificialPlayer player, Piece moving){
+		this.pone = player;
+		this.figur = moving;
+		
+	}
+	
+	Turn(ArtificialPlayer player, Piece moving, Position desti){
+		this.pone = player;
+		this.figur = moving;
+		this.goal = desti;
+	}
+	
+	public void addJumpPiece(Piece jumpable){
+		jumplist.add(jumpable);
+	}
+	
+
+}
