@@ -8,21 +8,30 @@
 		<item value="250" key="dialogHeight"/>
 		<item value="350" key="dialogWidth"/>
 		<list key="textEntries">
+			<item value="1"/>
+			<item value="2"/>
 			<item value="3"/>
 			<item value="2"/>
 			<item value="1"/>
 		</list>
 		<list key="orderedElements">
+			<item value="org.eclipse.ui.edit.text.zoomOut"/>
+			<item value="org.eclipse.ui.edit.text.zoomIn"/>
 			<item value="org.eclipse.jdt.ui.specific_content_assist.command(org.eclipse.jdt.ui.specific_content_assist.category_id=org.eclipse.jdt.ui.javaAllProposalCategory)"/>
 			<item value="org.eclipse.team.sync.views.SynchronizeView"/>
 			<item value="org.eclipse.egit.ui.internal.preferences.CommittingPreferencePage"/>
 		</list>
 		<list key="orderedProviders">
 			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.ui.commands"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.ui.preferences"/>
 		</list>
 		<list key="textArray">
+			<item value="zoom out"/>
+			<item value="zoom"/>
+			<item value="zoom in"/>
 			<item value="comple"/>
 			<item value="pro"/>
 			<item value="con"/>
@@ -38,6 +47,10 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
+		<item value="org.scala-ide.sdt.core.wizards.newProject" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.scala-ide.sdt.core.wizards"/>
+		</list>
 	</section>
 	<section name="ImportExportAction">
 		<item value="org.eclipse.ui.wizards.export.ZipFile" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
@@ -55,6 +68,7 @@
 		<item value="false" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
 		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\HA zips\T7_HA7_JakobFeldmann.zip"/>
 			<item value="C:\Users\Jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\HA zips\T7_HA6_JakobFeldmann.zip"/>
 			<item value="C:\Users\Jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\HA zips\T7_HA5_JakobFeldmann.zip"/>
 			<item value="C:\Users\Jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\HA zips\T7_HA4_JakobFeldmann.zip"/>

@@ -40,16 +40,18 @@ public class ArtificialPlayer extends Player implements GameStateListener, Runna
 	 * When called the artificial player tries to perform a turn.
 	 */
 	public void performTurn() {
+		
 		if (activePlayerName == this.getName() && gamePhase == GamePhase.Select) {
 			MoveTurns moveTurns = new MoveTurns(this);
-//			List<Position> turnList = moveTurns.getSimpleMoveTurn();
-			List<Position> turnList = moveTurns.getBestMoveTurn();
-			selectPiece(turnList.remove(0));
-			for (Position pos : turnList)
-				movePiece(pos);
+//			Turn turnList = moveTurns.getSimpleMoveTurn();
+			Turn turnList = moveTurns.getBestMoveTurn();
+			selectPiece(turnList.getPiece());
+			movePiece(turnList.getGoal());
 		}
+		
 		logic.stillActive = false;
 		startNextPlayer();
+		
 	}
 	
 	/**

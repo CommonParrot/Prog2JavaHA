@@ -39,7 +39,8 @@ public class JumpTurns {
 		Collection<Piece> jumpables = player.getPieces().stream()
 				.filter(e -> (Board.getAllPossibleJumpTurns(player.state, new Position(e)).size() > 0))
 				.collect(Collectors.toList());
-
+		
+		//LinkedBlockingQueue
 		LinkedBlockingQueue<Turn> incompleteJumps = new LinkedBlockingQueue<>();
 		LinkedBlockingQueue<Turn> jumpTurns = new LinkedBlockingQueue<>();
 
