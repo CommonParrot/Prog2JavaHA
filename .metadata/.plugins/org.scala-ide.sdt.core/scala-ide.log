@@ -23391,3 +23391,9 @@ Java Model Exception: Java Model Status [T7_HA7_JakobFeldmann_ScalaRecursion doe
 	at org.scalaide.ui.internal.editor.MarkOccurrencesEditorExtension$$anonfun$1.apply(MarkOccurrencesEditorExtension.scala:72)
 	at org.scalaide.util.eclipse.EclipseUtils$$anon$1.run(EclipseUtils.scala:115)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+2017-06-06 10:37:35,586  WARN [main] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
+2017-06-06 10:37:35,588  WARN [main] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
+2017-06-06 10:37:37,970 ERROR [Worker-1] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.jgit.util.FS).
+2017-06-06 10:37:37,972 ERROR [Worker-1] - System.err - log4j:WARN Please initialize the log4j system properly.
+2017-06-06 10:37:58,744  WARN [main] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
+2017-06-06 10:37:58,745  WARN [main] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
