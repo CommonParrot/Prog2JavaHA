@@ -23397,3 +23397,23 @@ Java Model Exception: Java Model Status [T7_HA7_JakobFeldmann_ScalaRecursion doe
 2017-06-06 10:37:37,972 ERROR [Worker-1] - System.err - log4j:WARN Please initialize the log4j system properly.
 2017-06-06 10:37:58,744  WARN [main] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
 2017-06-06 10:37:58,745  WARN [main] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
+2017-06-06 10:39:27,541  WARN [main] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
+2017-06-06 10:39:27,543  WARN [main] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
+2017-06-06 10:39:29,903 ERROR [Worker-3] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.jgit.util.FS).
+2017-06-06 10:39:29,906 ERROR [Worker-3] - System.err - log4j:WARN Please initialize the log4j system properly.
+2017-06-06 10:43:53,441  WARN [main] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
+2017-06-06 10:43:53,442  WARN [main] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
+2017-06-06 10:43:55,632 ERROR [Worker-1] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.jgit.util.FS).
+2017-06-06 10:43:55,633 ERROR [Worker-1] - System.err - log4j:WARN Please initialize the log4j system properly.
+2017-06-06 10:51:54,027 ERROR [Worker-4] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.jgit.util.FS).
+2017-06-06 10:51:54,034 ERROR [Worker-4] - System.err - log4j:WARN Please initialize the log4j system properly.
+2017-06-06 10:54:40,550 ERROR [Worker-3] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.jgit.util.FS).
+2017-06-06 10:54:40,551 ERROR [Worker-3] - System.err - log4j:WARN Please initialize the log4j system properly.
+2017-06-06 10:56:13,918  WARN [ModalContext] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
+2017-06-06 10:56:13,918  WARN [ModalContext] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
+2017-06-06 10:56:14,260  WARN [ModalContext] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
+2017-06-06 10:56:14,261  WARN [ModalContext] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
+2017-06-06 10:56:15,139  WARN [Worker-3] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
+2017-06-06 10:56:15,139  WARN [Worker-3] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
+2017-06-06 10:56:20,477  WARN [Java indexing] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
+2017-06-06 10:56:20,477  WARN [Java indexing] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
