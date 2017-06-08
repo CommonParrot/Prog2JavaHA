@@ -416,3 +416,70 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-06-06 10:58:29.257 -----------------------------------------------
+eclipse.buildId=4.5.0-vfinal-2016-12-13T10:59:29Z-Typesafe
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\GitHub\Prog2JavaHA
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-06-06 10:58:44.591
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jakob'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.scala-ide.sdt.core 4 0 2017-06-06 11:24:26.101
+!MESSAGE Throwable during asyncExec
+!STACK 0
+scala.reflect.internal.MissingRequirementError: object java.util.concurrent.LinkedBlockingQueue<de.tuberlin.snet.prog2.ue07.chinesecheckers.model.Turn> in compiler mirror not found.
+	at scala.reflect.internal.MissingRequirementError$.signal(MissingRequirementError.scala:17)
+	at scala.reflect.internal.MissingRequirementError$.notFound(MissingRequirementError.scala:18)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:53)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:66)
+	at scala.reflect.internal.Mirrors$RootsBase.getClassByName(Mirrors.scala:102)
+	at org.scalaide.core.internal.completion.ScalaJavaCompletionProposalComputer$$anonfun$1$$anonfun$2.apply(ScalaJavaCompletionProposalComputer.scala:118)
+	at org.scalaide.core.internal.completion.ScalaJavaCompletionProposalComputer$$anonfun$1$$anonfun$2.apply(ScalaJavaCompletionProposalComputer.scala:117)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2017-06-06 11:41:15.990
+!MESSAGE Throwable during asyncExec
+!STACK 0
+scala.reflect.internal.MissingRequirementError: class worker in compiler mirror not found.
+	at scala.reflect.internal.MissingRequirementError$.signal(MissingRequirementError.scala:17)
+	at scala.reflect.internal.MissingRequirementError$.notFound(MissingRequirementError.scala:18)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:53)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:66)
+	at scala.reflect.internal.Mirrors$RootsBase.getClassByName(Mirrors.scala:102)
+	at org.scalaide.core.internal.completion.ScalaJavaCompletionProposalComputer$$anonfun$1$$anonfun$2.apply(ScalaJavaCompletionProposalComputer.scala:118)
+	at org.scalaide.core.internal.completion.ScalaJavaCompletionProposalComputer$$anonfun$1$$anonfun$2.apply(ScalaJavaCompletionProposalComputer.scala:117)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+!SESSION 2017-06-08 20:51:32.269 -----------------------------------------------
+eclipse.buildId=4.5.0-vfinal-2016-12-13T10:59:29Z-Typesafe
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-06-08 20:52:16.094
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jakob'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

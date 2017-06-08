@@ -24,8 +24,12 @@ public class JumpTurnsWorker extends Thread {
 				currentTurn = incompleteJumps.take();
 				// finish, if there are no incomplete jumps
 				if (currentTurn == null) {
-					return;
+					this.wait(400);
+					if (currentTurn == null) {
+						return;
+					}
 				}
+				System.out.println(currentTurn.getScore());
 				Collection<Turn> foundJumpTurns = searchForJumpTurns(currentTurn);
 				jumpTurns.addAll(foundJumpTurns);
 				incompleteJumps.addAll(foundJumpTurns);

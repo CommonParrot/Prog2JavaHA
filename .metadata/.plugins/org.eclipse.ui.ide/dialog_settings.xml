@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\GitHub\Prog2JavaHA"/>
 		<item value="C:\Users\jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\Vorlage_HA7.zip"/>
 		<item value="C:\Users\Jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\Vorlage_HA4.zip"/>
 		<item value="C:\Users\Jakob\Downloads\T7_HA2_Abgabe_BarisTuefekci.zip"/>
 		<item value="C:\Users\jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\Vorlage_HA2.zip"/>
 	</list>
 	<list key="installedFeatures">
-		<item value="com.codeaffine.eclipse.ui.swt.theme.feature:0.5.0.20170519-1200"/>
 		<item value="org.eclipse.cvs:1.4.300.v20160907-1200"/>
-		<item value="org.eclipse.egit:4.7.0.201704051617-r"/>
+		<item value="org.eclipse.egit:4.4.1.201607150455-r"/>
 		<item value="org.eclipse.emf.common:2.12.0.v20160420-0247"/>
 		<item value="org.eclipse.emf.ecore:2.12.0.v20160420-0247"/>
 		<item value="org.eclipse.epp.mpc:1.5.2.v20161005-1414"/>
 		<item value="org.eclipse.help:2.2.2.v20170301-0400"/>
 		<item value="org.eclipse.jdt:3.12.3.v20170301-0400"/>
-		<item value="org.eclipse.jgit:4.7.0.201704051617-r"/>
+		<item value="org.eclipse.jgit:4.4.1.201607150455-r"/>
 		<item value="org.eclipse.jst.enterprise_ui.feature:3.8.0.v201701262139"/>
 		<item value="org.eclipse.m2e.feature:1.7.0.20160603-1933"/>
 		<item value="org.eclipse.pde:3.12.1.v20160907-1200"/>
@@ -42,6 +42,7 @@
 			<item value="C:\Users\Jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\Workspace"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\Vorlage_HA7.zip"/>
 			<item value="C:\Users\Jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\HA zips\T7_HA7_JakobFeldmann.zip"/>
 			<item value="C:\Users\Jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\HA zips\T7_HA6_JakobFeldmann.zip"/>
 			<item value="C:\Users\jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\Vorlage_HA05.zip"/>

@@ -49,10 +49,11 @@ public class JumpTurns {
 		}
 		
 		ExecutorService execution = Executors.newFixedThreadPool(4);
+		
 		for (int i = 0; i < 4; i++) {
 			execution.submit(new JumpTurnsWorker(incompleteJumps, jumpTurns));
 		}
-
+		
 		System.out.println(jumpTurns);
 		return jumpTurns;
 	}

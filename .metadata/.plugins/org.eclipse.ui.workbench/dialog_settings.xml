@@ -8,15 +8,15 @@
 		<item value="250" key="dialogHeight"/>
 		<item value="350" key="dialogWidth"/>
 		<list key="textEntries">
-			<item value="1"/>
 			<item value="2"/>
+			<item value="1"/>
 			<item value="3"/>
 			<item value="2"/>
 			<item value="1"/>
 		</list>
 		<list key="orderedElements">
-			<item value="org.eclipse.ui.edit.text.zoomOut"/>
 			<item value="org.eclipse.ui.edit.text.zoomIn"/>
+			<item value="org.eclipse.ui.edit.text.zoomOut"/>
 			<item value="org.eclipse.jdt.ui.specific_content_assist.command(org.eclipse.jdt.ui.specific_content_assist.category_id=org.eclipse.jdt.ui.javaAllProposalCategory)"/>
 			<item value="org.eclipse.team.sync.views.SynchronizeView"/>
 			<item value="org.eclipse.egit.ui.internal.preferences.CommittingPreferencePage"/>
@@ -29,9 +29,9 @@
 			<item value="org.eclipse.ui.preferences"/>
 		</list>
 		<list key="textArray">
-			<item value="zoom out"/>
-			<item value="zoom"/>
 			<item value="zoom in"/>
+			<item value="zoom"/>
+			<item value="zoom out"/>
 			<item value="comple"/>
 			<item value="pro"/>
 			<item value="con"/>
