@@ -3,9 +3,7 @@ INDEX VERSION 1.130+C:\GitHub\Prog2JavaHA\.metadata\.plugins\org.eclipse.jdt.cor
 177110095.index
 3996598791.index
 3010832295.index
-2086270188.index
 956940996.index
 2718485982.index
 468915766.index
-3251295974.index
 2163349804.index
