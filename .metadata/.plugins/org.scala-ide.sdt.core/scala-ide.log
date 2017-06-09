@@ -24079,3 +24079,15 @@ Caused by: com.cedarsoftware.util.io.JsonIoException: EOF reached prematurely
 2017-06-08 23:36:01,269  WARN [Worker-5] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
 2017-06-08 23:36:01,357  WARN [Worker-5] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
 2017-06-08 23:36:01,357  WARN [Worker-5] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
+2017-06-09 10:34:21,815  WARN [main] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 10:34:21,815  WARN [main] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 10:34:21,985  WARN [Worker-18] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 10:34:21,985  WARN [Worker-18] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 10:34:22,135  WARN [Worker-15] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 10:34:22,136  WARN [Worker-15] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 10:34:31,707  WARN [main] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 10:34:31,708  WARN [main] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 10:34:39,765  WARN [main] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 10:34:39,765  WARN [main] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 10:34:39,928  WARN [Worker-16] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 10:34:39,928  WARN [Worker-16] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
