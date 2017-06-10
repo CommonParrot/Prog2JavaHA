@@ -3,9 +3,11 @@ package de.tuberlin.snet.prog2.ue08.students;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.function.BiPredicate;
 import java.util.function.Function;
 import java.util.function.Supplier;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StudentMain {
@@ -14,10 +16,19 @@ public class StudentMain {
 	public static void main(String[] args) {
 		List<Student> students = generateStudents();
 	
-		/**
-		* TODO:  
-		* 
-		*/
+		List<Student> goodStudents = students.stream()
+											 .filter(d -> d.studymajor == "Wi-Inf")
+											 .filter(d -> d.grade<4.0)
+											 .collect(Collectors.toList());
+		
+		goodStudents.stream().forEach(System.out::println);
+		
+		
+		
+		Optional<Student> bestStudent = students.stream()
+									  			.reduce(Student::compareTo);
+		
+		System.out.println(bestStudent);
 	}
 
 public static List<Student> generateStudents() {

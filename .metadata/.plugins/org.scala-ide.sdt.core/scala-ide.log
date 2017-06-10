@@ -24091,3 +24091,157 @@ Caused by: com.cedarsoftware.util.io.JsonIoException: EOF reached prematurely
 2017-06-09 10:34:39,765  WARN [main] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
 2017-06-09 10:34:39,928  WARN [Worker-16] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
 2017-06-09 10:34:39,928  WARN [Worker-16] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 16:21:17,835  WARN [ModalContext] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 16:21:17,837  WARN [ModalContext] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 16:21:17,841  WARN [ModalContext] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
+2017-06-09 16:21:17,841  WARN [ModalContext] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
+2017-06-09 16:21:18,472  WARN [ModalContext] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
+2017-06-09 16:21:18,473  WARN [ModalContext] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
+2017-06-09 16:21:18,489  WARN [ModalContext] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 16:21:18,489  WARN [ModalContext] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 16:21:18,554 ERROR [Worker-5] - System.err - log4j:WARN No appenders could be found for logger (org.eclipse.jgit.util.FS).
+2017-06-09 16:21:18,555 ERROR [Worker-5] - System.err - log4j:WARN Please initialize the log4j system properly.
+2017-06-09 16:21:23,090  WARN [Worker-8] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
+2017-06-09 16:21:23,090  WARN [Worker-8] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
+2017-06-09 16:21:25,547  WARN [Java indexing] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
+2017-06-09 16:21:25,547  WARN [Java indexing] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
+2017-06-09 16:21:26,401  WARN [main] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 16:21:26,401  WARN [main] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 16:21:28,867  WARN [Worker-8] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 16:21:28,867  WARN [Worker-8] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 18:56:15,243  WARN [Worker-47] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 18:56:15,243  WARN [Worker-47] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 19:29:34,289  WARN [Worker-62] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 19:29:34,290  WARN [Worker-62] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 19:53:33,740  WARN [Worker-73] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 19:53:33,740  WARN [Worker-73] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 19:57:39,495  WARN [main] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 19:57:39,495  WARN [main] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 20:00:44,386  WARN [main] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 20:00:44,386  WARN [main] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 20:05:06,361 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.MissingRequirementError: object java.util.HashMap<de.tuberlin.snet.prog2.ue08.hashmaps.AudioFile,de.tuberlin.snet.prog2.ue08.hashmaps.Song> in compiler mirror not found.
+	at scala.reflect.internal.MissingRequirementError$.signal(MissingRequirementError.scala:17)
+	at scala.reflect.internal.MissingRequirementError$.notFound(MissingRequirementError.scala:18)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:53)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:66)
+	at scala.reflect.internal.Mirrors$RootsBase.getClassByName(Mirrors.scala:102)
+	at org.scalaide.core.internal.completion.ScalaJavaCompletionProposalComputer$$anonfun$1$$anonfun$2.apply(ScalaJavaCompletionProposalComputer.scala:118)
+	at org.scalaide.core.internal.completion.ScalaJavaCompletionProposalComputer$$anonfun$1$$anonfun$2.apply(ScalaJavaCompletionProposalComputer.scala:117)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2017-06-09 20:09:25,568  WARN [Worker-71] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 20:09:25,569  WARN [Worker-71] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 20:12:19,617  WARN [main] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 20:12:19,617  WARN [main] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 20:23:48,129  WARN [Worker-79] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 20:23:48,129  WARN [Worker-79] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 20:26:01,987  WARN [main] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 20:26:01,988  WARN [main] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 20:34:04,562  WARN [Worker-81] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 20:34:04,562  WARN [Worker-81] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 20:36:27,768  WARN [main] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 20:36:27,768  WARN [main] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 20:42:28,800  WARN [main] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 20:42:28,800  WARN [main] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 21:23:48,713  WARN [Worker-89] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 21:23:48,714  WARN [Worker-89] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 21:24:57,152 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.MissingRequirementError: object java.util.List<de.tuberlin.snet.prog2.ue08.students.Student> in compiler mirror not found.
+	at scala.reflect.internal.MissingRequirementError$.signal(MissingRequirementError.scala:17)
+	at scala.reflect.internal.MissingRequirementError$.notFound(MissingRequirementError.scala:18)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:53)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:66)
+	at scala.reflect.internal.Mirrors$RootsBase.getClassByName(Mirrors.scala:102)
+	at org.scalaide.core.internal.completion.ScalaJavaCompletionProposalComputer$$anonfun$1$$anonfun$2.apply(ScalaJavaCompletionProposalComputer.scala:118)
+	at org.scalaide.core.internal.completion.ScalaJavaCompletionProposalComputer$$anonfun$1$$anonfun$2.apply(ScalaJavaCompletionProposalComputer.scala:117)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2017-06-09 21:25:07,114 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.MissingRequirementError: object java.util.stream.Stream<de.tuberlin.snet.prog2.ue08.students.Student> in compiler mirror not found.
+	at scala.reflect.internal.MissingRequirementError$.signal(MissingRequirementError.scala:17)
+	at scala.reflect.internal.MissingRequirementError$.notFound(MissingRequirementError.scala:18)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:53)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:66)
+	at scala.reflect.internal.Mirrors$RootsBase.getClassByName(Mirrors.scala:102)
+	at org.scalaide.core.internal.completion.ScalaJavaCompletionProposalComputer$$anonfun$1$$anonfun$2.apply(ScalaJavaCompletionProposalComputer.scala:118)
+	at org.scalaide.core.internal.completion.ScalaJavaCompletionProposalComputer$$anonfun$1$$anonfun$2.apply(ScalaJavaCompletionProposalComputer.scala:117)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2017-06-09 21:28:20,277  WARN [Worker-91] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 21:28:20,277  WARN [Worker-91] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 21:28:30,122  WARN [Worker-90] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 21:28:30,122  WARN [Worker-90] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 21:29:30,130  WARN [main] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 21:29:30,130  WARN [main] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 21:31:27,950  WARN [Worker-89] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 21:31:27,950  WARN [Worker-89] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 21:32:27,165  WARN [main] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 21:32:27,166  WARN [main] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 21:37:15,496  WARN [main] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 21:37:15,496  WARN [main] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 21:37:22,626  WARN [Worker-95] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 21:37:22,626  WARN [Worker-95] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 22:16:47,690  WARN [main] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 22:16:47,693  WARN [main] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-09 22:19:45,445  WARN [main] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-09 22:19:45,446  WARN [main] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-10 01:17:42,106  WARN [Worker-121] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-10 01:17:42,106  WARN [Worker-121] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-10 02:09:26,824  WARN [Worker-133] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-10 02:09:26,824  WARN [Worker-133] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-10 02:10:28,482  WARN [Worker-135] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-10 02:10:28,482  WARN [Worker-135] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-10 02:14:22,223  WARN [main] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-10 02:14:22,224  WARN [main] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-10 02:14:34,448  WARN [Worker-135] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-10 02:14:34,448  WARN [Worker-135] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-10 02:19:48,284  WARN [Worker-133] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-10 02:19:48,285  WARN [Worker-133] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-10 02:24:52,634  WARN [main] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-10 02:24:52,634  WARN [main] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-10 02:44:10,320  WARN [Worker-145] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-10 02:44:10,320  WARN [Worker-145] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-10 02:44:12,569  WARN [Worker-144] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-10 02:44:12,570  WARN [Worker-144] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-10 02:45:56,293  WARN [Worker-142] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-10 02:45:56,294  WARN [Worker-142] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-10 02:46:52,767  WARN [Worker-144] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-10 02:46:52,767  WARN [Worker-144] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-10 02:47:14,989  WARN [Worker-146] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-10 02:47:14,989  WARN [Worker-146] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.
+2017-06-10 02:47:33,716  WARN [Worker-146] - ScalaProject - Project Vorlage_HA8 has platform default sourceLevel.
+2017-06-10 02:47:33,716  WARN [Worker-146] - ScalaProject - Project Vorlage_HA8 runs on platform default installation.

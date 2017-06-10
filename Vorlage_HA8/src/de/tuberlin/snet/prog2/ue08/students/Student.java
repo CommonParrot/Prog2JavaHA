@@ -1,6 +1,6 @@
 package de.tuberlin.snet.prog2.ue08.students;
 
-public class Student {
+public class Student{
 
 	String firstname;
 	String lastname;
@@ -66,6 +66,10 @@ public class Student {
 
 	public void setGrade(double grade) {
 		this.grade = grade;
+	}
+	
+	public Student compareTo(Student b) {
+		return ((this.grade<b.grade) ? this:b);
 	}
 
 

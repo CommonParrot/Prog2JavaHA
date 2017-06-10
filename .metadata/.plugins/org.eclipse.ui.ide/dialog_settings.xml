@@ -8,14 +8,15 @@
 		<item value="C:\Users\jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\Vorlage_HA2.zip"/>
 	</list>
 	<list key="installedFeatures">
+		<item value="com.codeaffine.eclipse.ui.swt.theme.feature:0.5.0.20170519-1200"/>
 		<item value="org.eclipse.cvs:1.4.300.v20160907-1200"/>
-		<item value="org.eclipse.egit:4.4.1.201607150455-r"/>
+		<item value="org.eclipse.egit:4.7.0.201704051617-r"/>
 		<item value="org.eclipse.emf.common:2.12.0.v20160420-0247"/>
 		<item value="org.eclipse.emf.ecore:2.12.0.v20160420-0247"/>
 		<item value="org.eclipse.epp.mpc:1.5.2.v20161005-1414"/>
 		<item value="org.eclipse.help:2.2.2.v20170301-0400"/>
 		<item value="org.eclipse.jdt:3.12.3.v20170301-0400"/>
-		<item value="org.eclipse.jgit:4.4.1.201607150455-r"/>
+		<item value="org.eclipse.jgit:4.7.0.201704051617-r"/>
 		<item value="org.eclipse.jst.enterprise_ui.feature:3.8.0.v201701262139"/>
 		<item value="org.eclipse.m2e.feature:1.7.0.20160603-1933"/>
 		<item value="org.eclipse.pde:3.12.1.v20160907-1200"/>
@@ -35,13 +36,15 @@
 	</list>
 	<section name="ExternalProjectImportWizard">
 		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
-		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
-		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\GitHub\Prog2JavaHA"/>
 			<item value=""/>
 			<item value="C:\Users\Jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\Workspace"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
 			<item value="C:\Users\jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\Vorlage_HA8.zip"/>
 			<item value="C:\Users\jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\Vorlage_HA7.zip"/>
 			<item value="C:\Users\Jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\HA zips\T7_HA7_JakobFeldmann.zip"/>
@@ -56,11 +59,15 @@
 			<item value="C:\Users\Jakob\OneDrive\Dokumente\Technische Universität Berlin\2. Semester WINF\Java für Fortgeschrittene\HA zips\T07_HA1_Jakob_Feldmann.zip"/>
 		</list>
 	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
 	<section name="NewWizardAction">
 	</section>
 	<section name="ChooseWorkspaceDialogSettings">
-		<item value="978" key="DIALOG_X_ORIGIN"/>
-		<item value="525" key="DIALOG_Y_ORIGIN"/>
+		<item value="185" key="DIALOG_X_ORIGIN"/>
+		<item value="493" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="BasicNewProjectResourceWizard">
 	</section>
