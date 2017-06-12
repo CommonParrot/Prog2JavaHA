@@ -15,20 +15,31 @@ public class StudentMain {
 
 	public static void main(String[] args) {
 		List<Student> students = generateStudents();
-	
+		
+		
+		
 		List<Student> goodStudents = students.stream()
 											 .filter(d -> d.studymajor == "Wi-Inf")
 											 .filter(d -> d.grade<4.0)
 											 .collect(Collectors.toList());
 		
+		
+		
 		goodStudents.stream().forEach(System.out::println);
+		
+		
 		
 		
 		
 		Optional<Student> bestStudent = students.stream()
 									  			.reduce(Student::compareTo);
 		
+		
+		
+		
 		System.out.println(bestStudent);
+		
+		
 	}
 
 public static List<Student> generateStudents() {
