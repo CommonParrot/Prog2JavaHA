@@ -5,7 +5,7 @@ object FuncHighOrder {
   
   val biggerNum: (Int, Int) => (Int) = (m: Int, n: Int) => Integer.max(m, n)
 
-  val higher: (Int, Int, (Int, Int) => (Int)) => (Int) = (a: Int, b: Int, biggerNum) => biggerNum(a, b)
+  val higher: (Int, Int, (Int, Int) => (Int)) => (Int) = (a, b, biggerNum) => biggerNum(a, b)
 
   var i = util.Random.nextInt
 
@@ -18,14 +18,13 @@ object FuncHighOrder {
   val produkt = prod(4)
 
   
-  
-  val square: (Double) => (Double) = (x: Double) => x * x
+  // Funktion   Funktionstyp           Funktionsliteral
+  val square: (Double) => (Double) = (x) => x * x
 
   
   
-  val sum: (Int, Int) => (Int) = (x: Int, y: Int) => x + y
-
-  
+  val sum: (Int, Int) => (Int) = (x, y) => x + y
+  val platzhaltersum: (Int,Int) => (Int) = _+_
   
   
   def main(args: Array[String]): Unit = {

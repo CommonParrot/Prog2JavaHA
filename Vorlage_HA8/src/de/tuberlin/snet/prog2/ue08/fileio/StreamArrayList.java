@@ -1,4 +1,4 @@
-package de.tuberlin.snet.prog2.ue06.streams;
+package de.tuberlin.snet.prog2.ue08.fileio;
 
 import java.util.ArrayList;
 import java.util.Optional;

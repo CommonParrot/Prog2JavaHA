@@ -8,7 +8,7 @@
 		<item value="250" key="dialogHeight"/>
 		<item value="350" key="dialogWidth"/>
 		<list key="textEntries">
-			<item value="2"/>
+			<item value="3"/>
 			<item value="1"/>
 			<item value="3"/>
 			<item value="2"/>
@@ -29,8 +29,9 @@
 			<item value="org.eclipse.ui.preferences"/>
 		</list>
 		<list key="textArray">
-			<item value="zoom in"/>
 			<item value="zoom"/>
+			<item value="zoo"/>
+			<item value="zoom in"/>
 			<item value="zoom out"/>
 			<item value="comple"/>
 			<item value="pro"/>
