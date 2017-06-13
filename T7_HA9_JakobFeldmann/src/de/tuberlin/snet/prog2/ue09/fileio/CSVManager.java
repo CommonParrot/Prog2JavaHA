@@ -5,7 +5,12 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.stream.Stream;
 
 import de.tuberlin.snet.prog2.ue09.fileio.CSVDataEntry;
 
@@ -15,17 +20,24 @@ import de.tuberlin.snet.prog2.ue09.fileio.CSVDataEntry;
  */
 public class CSVManager {
 
+	Charset standard; 
 	/** csvFile */
 	File csvFile;
+	/** csvPath */
+	Path csvPath;
 	/** ArrayList of CSVDataEntry */
 	ArrayList<CSVDataEntry> dataset;
 
-	/** 
-	 * constructor 
-	 * @param path - path to csvFile
+	/**
+	 * constructor
+	 * 
+	 * @param path
+	 *            - path to csvFile
 	 */
-	public CSVManager(String path) {
-		csvFile = new File(path);
+	public CSVManager(String paths, String usedCharset) {
+		standard = Charset.forName(usedCharset);;
+		csvPath = Paths.get(paths);
+		csvFile = new File(paths);
 		dataset = new ArrayList<CSVDataEntry>();
 	}
 
@@ -46,11 +58,38 @@ public class CSVManager {
 		return dataset;
 	}
 
+	public Stream<CSVDataEntry> streamCSV() {
+
+		try {
+			return Files.lines(csvPath, standard).skip(1).map(b -> new CSVDataEntry(b));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return null;
+
+	}
+
+	public Stream<String> taxiStream() {
+
+		try {
+			return Files.lines(csvPath, standard);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return null;
+
+	}
+
 	/**
-	 * writeDatatoCSV file writes Data from ArrayLIst csvData to a csv File with path path
+	 * writeDatatoCSV file writes Data from ArrayLIst csvData to a csv File with
+	 * path path
 	 * 
-	 * @param csvData - csvData as ArrayList
-	 * @param path - path to csv file where data are stored
+	 * @param csvData
+	 *            - csvData as ArrayList
+	 * @param path
+	 *            - path to csv file where data are stored
 	 * @throws IOException
 	 */
 	public void writeDataToCSV(ArrayList<CSVDataEntry> csvData, String path) throws IOException {

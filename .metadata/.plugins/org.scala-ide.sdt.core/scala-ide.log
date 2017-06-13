@@ -27168,3 +27168,318 @@ Caused by: com.cedarsoftware.util.io.JsonIoException: EOF reached prematurely
 2017-06-13 21:19:38,331  WARN [Worker-7] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
 2017-06-13 21:19:39,647  WARN [Java indexing] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
 2017-06-13 21:19:39,647  WARN [Java indexing] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 21:46:17,735  WARN [Worker-0] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
+2017-06-13 21:46:17,737  WARN [Worker-0] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
+2017-06-13 21:46:17,976  WARN [Worker-0] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
+2017-06-13 21:46:17,976  WARN [Worker-0] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
+2017-06-13 21:46:18,113  WARN [Worker-0] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
+2017-06-13 21:46:18,113  WARN [Worker-0] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
+2017-06-13 21:46:19,232  WARN [Worker-3] - ScalaProject - Project T7_HA8_JakobFeldmann has platform default sourceLevel.
+2017-06-13 21:46:19,233  WARN [Worker-3] - ScalaProject - Project T7_HA8_JakobFeldmann runs on platform default installation.
+2017-06-13 21:46:19,992  WARN [Worker-3] - ScalaProject - Project T7_HA8_JakobFeldmann has platform default sourceLevel.
+2017-06-13 21:46:19,992  WARN [Worker-3] - ScalaProject - Project T7_HA8_JakobFeldmann runs on platform default installation.
+2017-06-13 21:46:20,012  WARN [Worker-3] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
+2017-06-13 21:46:20,013  WARN [Worker-3] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
+2017-06-13 21:46:30,379  WARN [Worker-0] - ScalaProject - Project T7_HA8_JakobFeldmann has platform default sourceLevel.
+2017-06-13 21:46:30,379  WARN [Worker-0] - ScalaProject - Project T7_HA8_JakobFeldmann runs on platform default installation.
+2017-06-13 21:46:30,694  WARN [Worker-22] - ScalaProject - Project T7_HA8_JakobFeldmann has platform default sourceLevel.
+2017-06-13 21:46:30,694  WARN [Worker-22] - ScalaProject - Project T7_HA8_JakobFeldmann runs on platform default installation.
+2017-06-13 21:46:47,743  WARN [Java indexing] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
+2017-06-13 21:46:47,744  WARN [Java indexing] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
+2017-06-13 21:46:50,229  WARN [Java indexing] - ScalaProject - Project T7_HA8_JakobFeldmann has platform default sourceLevel.
+2017-06-13 21:46:50,229  WARN [Java indexing] - ScalaProject - Project T7_HA8_JakobFeldmann runs on platform default installation.
+2017-06-13 21:47:15,837  WARN [ModalContext] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 21:47:15,837  WARN [ModalContext] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 21:47:15,909  WARN [ModalContext] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 21:47:15,909  WARN [ModalContext] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 21:47:16,347  WARN [Worker-3] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 21:47:16,347  WARN [Worker-3] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 21:47:17,426  WARN [Java indexing] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 21:47:17,427  WARN [Java indexing] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:08:33,518  WARN [Worker-32] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:08:33,518  WARN [Worker-32] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:08:55,909  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:08:55,910  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:09:28,294  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:09:28,294  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:09:28,482  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:09:28,482  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:09:33,686  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:09:33,686  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:10:11,496  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:10:11,496  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:10:15,586  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:10:15,586  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:10:33,477  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:10:33,477  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:10:37,079  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:10:37,080  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:11:10,641  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:11:10,641  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:11:20,525  WARN [Worker-30] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:11:20,525  WARN [Worker-30] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:12:18,602  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:12:18,603  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:12:24,378  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:12:24,379  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:12:24,760 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.MissingRequirementError: object java.lang.Class<java.nio.file.Path> in compiler mirror not found.
+	at scala.reflect.internal.MissingRequirementError$.signal(MissingRequirementError.scala:17)
+	at scala.reflect.internal.MissingRequirementError$.notFound(MissingRequirementError.scala:18)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:53)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:66)
+	at scala.reflect.internal.Mirrors$RootsBase.getClassByName(Mirrors.scala:102)
+	at org.scalaide.core.internal.completion.ScalaJavaCompletionProposalComputer$$anonfun$1$$anonfun$2.apply(ScalaJavaCompletionProposalComputer.scala:118)
+	at org.scalaide.core.internal.completion.ScalaJavaCompletionProposalComputer$$anonfun$1$$anonfun$2.apply(ScalaJavaCompletionProposalComputer.scala:117)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2017-06-13 22:12:34,514  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:12:34,515  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:12:36,138  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:12:36,139  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:12:36,999  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:12:36,999  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:13:01,247  WARN [Worker-29] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:13:01,248  WARN [Worker-29] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:13:22,590  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:13:22,590  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:13:22,859 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+scala.reflect.internal.MissingRequirementError: object java.util.stream.Stream<java.lang.String> in compiler mirror not found.
+	at scala.reflect.internal.MissingRequirementError$.signal(MissingRequirementError.scala:17)
+	at scala.reflect.internal.MissingRequirementError$.notFound(MissingRequirementError.scala:18)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:53)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:66)
+	at scala.reflect.internal.Mirrors$RootsBase.getClassByName(Mirrors.scala:102)
+	at org.scalaide.core.internal.completion.ScalaJavaCompletionProposalComputer$$anonfun$1$$anonfun$2.apply(ScalaJavaCompletionProposalComputer.scala:118)
+	at org.scalaide.core.internal.completion.ScalaJavaCompletionProposalComputer$$anonfun$1$$anonfun$2.apply(ScalaJavaCompletionProposalComputer.scala:117)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2017-06-13 22:13:32,934  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:13:32,934  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:13:39,319  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:13:39,320  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:15:56,581  WARN [Worker-33] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:15:56,581  WARN [Worker-33] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:20:14,027  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:20:14,027  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:20:39,690  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:20:39,690  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:23:04,978  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:23:04,978  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:23:56,703  WARN [Worker-33] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:23:56,703  WARN [Worker-33] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:24:05,221  WARN [Worker-33] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:24:05,221  WARN [Worker-33] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:26:33,380  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:26:33,381  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:26:50,704  WARN [Worker-26] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:26:50,704  WARN [Worker-26] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:27:54,360  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:27:54,360  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:28:02,539  WARN [Worker-37] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:28:02,539  WARN [Worker-37] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:29:53,976  WARN [Worker-37] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:29:53,977  WARN [Worker-37] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:30:03,587  WARN [Worker-30] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:30:03,588  WARN [Worker-30] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:33:24,296  WARN [Worker-35] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:33:24,296  WARN [Worker-35] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:33:45,261  WARN [Worker-35] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:33:45,261  WARN [Worker-35] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:37:37,556  WARN [Worker-35] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:37:37,557  WARN [Worker-35] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:37:57,818  WARN [Worker-32] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:37:57,818  WARN [Worker-32] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:38:33,057  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:38:33,057  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:38:33,616  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:38:33,616  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:38:41,318  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:38:41,318  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:38:43,401  WARN [Worker-35] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:38:43,401  WARN [Worker-35] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:40:32,851  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:40:32,851  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:41:14,257  WARN [Worker-38] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:41:14,258  WARN [Worker-38] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:41:41,812  WARN [Worker-29] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:41:41,812  WARN [Worker-29] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:43:09,982  WARN [Worker-40] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:43:09,982  WARN [Worker-40] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:43:17,974  WARN [Worker-34] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:43:17,974  WARN [Worker-34] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:44:53,183  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:44:53,183  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:45:03,165  WARN [Worker-38] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:45:03,166  WARN [Worker-38] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:46:25,090  WARN [Worker-41] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:46:25,090  WARN [Worker-41] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:49:14,938  WARN [Worker-43] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:49:14,939  WARN [Worker-43] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:50:06,510  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:50:06,510  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:50:48,082  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:50:48,082  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:50:54,884  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:50:54,884  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:51:07,655  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:51:07,655  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:51:29,490  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:51:29,490  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:51:34,288  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:51:34,288  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:51:39,382  WARN [Worker-34] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:51:39,383  WARN [Worker-34] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:51:58,009  WARN [Worker-42] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:51:58,009  WARN [Worker-42] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:53:28,687  WARN [Worker-29] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:53:28,687  WARN [Worker-29] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:54:06,212  WARN [Worker-34] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:54:06,212  WARN [Worker-34] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:54:06,214  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:54:06,214  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:54:18,095  WARN [Worker-40] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:54:18,095  WARN [Worker-40] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 22:54:26,547  WARN [Worker-45] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 22:54:26,547  WARN [Worker-45] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:00:17,401  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:00:17,401  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:00:17,726  WARN [Worker-48] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:00:17,726  WARN [Worker-48] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:00:18,088  WARN [Java indexing] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:00:18,088  WARN [Java indexing] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:01:11,945  WARN [Worker-49] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:01:11,945  WARN [Worker-49] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:01:12,344  WARN [Java indexing] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:01:12,345  WARN [Java indexing] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:01:20,951  WARN [Worker-43] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:01:20,951  WARN [Worker-43] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:01:57,960  WARN [Worker-45] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:01:57,960  WARN [Worker-45] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:03:04,729  WARN [Recommenders-Timeout-Manager] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:03:04,729  WARN [Recommenders-Timeout-Manager] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:03:34,651  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:03:34,651  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:03:37,751  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:03:37,751  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:03:54,034  WARN [Worker-43] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:03:54,034  WARN [Worker-43] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:06:53,862  WARN [Worker-53] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:06:53,862  WARN [Worker-53] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:08:19,853  WARN [Worker-48] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:08:19,853  WARN [Worker-48] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:08:45,441  WARN [Worker-51] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:08:45,442  WARN [Worker-51] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:08:45,491  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:08:45,491  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:08:45,783  WARN [main] - ScalaProject - Project T7_HA8_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:08:45,783  WARN [main] - ScalaProject - Project T7_HA8_JakobFeldmann runs on platform default installation.
+2017-06-13 23:34:30,821  WARN [main] - ScalaProject - Project T7_HA8_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:34:30,821  WARN [main] - ScalaProject - Project T7_HA8_JakobFeldmann runs on platform default installation.
+2017-06-13 23:34:30,882  WARN [Worker-66] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:34:30,882  WARN [Worker-66] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:34:32,307  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:34:32,307  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:43:40,837  WARN [Worker-69] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:43:40,838  WARN [Worker-69] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:44:01,131  WARN [Worker-71] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:44:01,131  WARN [Worker-71] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:44:26,523  WARN [Worker-63] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:44:26,523  WARN [Worker-63] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:48:01,399  WARN [Worker-71] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:48:01,399  WARN [Worker-71] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:53:20,324  WARN [Worker-79] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:53:20,324  WARN [Worker-79] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:54:37,886  WARN [Worker-73] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:54:37,886  WARN [Worker-73] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:55:07,737  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:55:07,737  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:55:19,449  WARN [Worker-82] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:55:19,449  WARN [Worker-82] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:55:28,327  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:55:28,327  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-13 23:55:31,207  WARN [Worker-63] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-13 23:55:31,207  WARN [Worker-63] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:10:29,285  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:10:29,285  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:10:32,598  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:10:32,598  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:10:38,098  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:10:38,098  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:10:46,872  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:10:46,872  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:12:19,235  WARN [Recommenders-Timeout-Manager] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:12:19,235  WARN [Recommenders-Timeout-Manager] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:13:22,151  WARN [Worker-91] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:13:22,151  WARN [Worker-91] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:15:01,375  WARN [Worker-82] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:15:01,376  WARN [Worker-82] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:15:51,370  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:15:51,370  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:16:43,531  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:16:43,532  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:16:54,030  WARN [Worker-88] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:16:54,030  WARN [Worker-88] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:17:38,380  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:17:38,381  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:19:09,293  WARN [Worker-94] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:19:09,294  WARN [Worker-94] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:19:12,020  WARN [Worker-73] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:19:12,020  WARN [Worker-73] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:27:32,103  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:27:32,103  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:28:21,754  WARN [Worker-93] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:28:21,755  WARN [Worker-93] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:28:55,650  WARN [Worker-92] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:28:55,650  WARN [Worker-92] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:29:20,504  WARN [Worker-99] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:29:20,504  WARN [Worker-99] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:30:02,724  WARN [Worker-91] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:30:02,724  WARN [Worker-91] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:30:22,301  WARN [Worker-91] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:30:22,301  WARN [Worker-91] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:30:50,161  WARN [Worker-100] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:30:50,161  WARN [Worker-100] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:31:52,020  WARN [Worker-91] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:31:52,021  WARN [Worker-91] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:32:48,995  WARN [Worker-98] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:32:48,995  WARN [Worker-98] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:33:32,034  WARN [Worker-102] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:33:32,034  WARN [Worker-102] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:39:11,797  WARN [Worker-112] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:39:11,797  WARN [Worker-112] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:44:07,563  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:44:07,564  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:44:07,709  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:44:07,709  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:44:10,453  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:44:10,453  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:44:13,776  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:44:13,776  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:44:25,579  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:44:25,579  WARN [main] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:45:14,662  WARN [Worker-113] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:45:14,662  WARN [Worker-113] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:47:16,195  WARN [org.eclipse.jdt.internal.ui.text.JavaReconciler] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:47:16,199  WARN [org.eclipse.jdt.internal.ui.text.JavaReconciler] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:47:16,403  WARN [org.eclipse.jdt.internal.ui.text.JavaReconciler] - ScalaProject - Project T7_HA7_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:47:16,404  WARN [org.eclipse.jdt.internal.ui.text.JavaReconciler] - ScalaProject - Project T7_HA7_JakobFeldmann runs on platform default installation.
+2017-06-14 00:47:18,359  WARN [Worker-0] - ScalaProject - Project T7_HA8_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:47:18,360  WARN [Worker-0] - ScalaProject - Project T7_HA8_JakobFeldmann runs on platform default installation.
+2017-06-14 00:47:19,793 ERROR [org.eclipse.jdt.internal.ui.text.JavaReconciler] - System.err - Jun 14, 2017 12:47:19 AM org.hibernate.eclipse.HibernatePlugin start
+INFORMATION: HibernatePlugin Started
+2017-06-14 00:47:44,389  WARN [Worker-19] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:47:44,390  WARN [Worker-19] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
+2017-06-14 00:47:44,445  WARN [Worker-19] - ScalaProject - Project T7_HA9_JakobFeldmann has platform default sourceLevel.
+2017-06-14 00:47:44,445  WARN [Worker-19] - ScalaProject - Project T7_HA9_JakobFeldmann runs on platform default installation.
