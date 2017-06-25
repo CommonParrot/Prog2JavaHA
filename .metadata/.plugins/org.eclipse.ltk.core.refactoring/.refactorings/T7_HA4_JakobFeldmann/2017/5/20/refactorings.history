@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;Chopstick.java&apos; to &apos;T7_HA4_JakobFeldmann/src/de.tuberlin.snet.prog2.ue04.lock&apos;&#x0D;&#x0A;- Original project: &apos;T7_HA4_JakobFeldmann&apos;&#x0D;&#x0A;- Destination element: &apos;T7_HA4_JakobFeldmann/src/de.tuberlin.snet.prog2.ue04.lock&apos;&#x0D;&#x0A;- Original element: &apos;de.tuberlin.snet.prog2.ue04.treatment.Chopstick.java&apos;" description="Move compilation unit" destination="/src&lt;de.tuberlin.snet.prog2.ue04.lock" element1="/src&lt;de.tuberlin.snet.prog2.ue04.treatment{Chopstick.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="false" stamp="1494880347800" units="1" version="1.0"/>
-</session>

@@ -10,14 +10,14 @@ public class Closures {
 		/**
 		 *  TODO Implementieren des Functional Interface
 		 */
-		welcomeMessage(greeter);
+		welcomeMessage(Greeter);
 	}
 	
 	static void welcomeMessage(Function<String, String> greeter){
 		/**
 		 *  TODO Aufrufen des Functional Interfaces
 		 */
-		System.out.println(...);
+		System.out.println();
 	}
 	
 	public static void main (String args[]){

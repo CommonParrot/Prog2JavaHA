@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move package &apos;de.tuberlin.snet.prog2.ue02.debugging&apos; to &apos;blatt_03/src&apos;&#x0D;&#x0A;- Original project: &apos;Vorlage_HA2&apos;&#x0D;&#x0A;- Destination element: &apos;blatt_03/src&apos;&#x0D;&#x0A;- Original element: &apos;Vorlage_HA2/src/de.tuberlin.snet.prog2.ue02.debugging&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=blatt_03/src" element1="/src&lt;de.tuberlin.snet.prog2.ue02.debugging" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1494176988779" version="1.0"/>
-</session>
