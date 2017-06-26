@@ -20,6 +20,8 @@ public class CSVMain {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		
+		System.out.println("yo");
 		CSVManager csvManager = new CSVManager("resources/EWR_Ortsteile_Berlin_2015.csv");
 		ArrayList<CSVDataEntry> csvData = new ArrayList<CSVDataEntry>();
 		try {
