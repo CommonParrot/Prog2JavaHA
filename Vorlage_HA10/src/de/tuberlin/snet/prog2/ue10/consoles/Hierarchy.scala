@@ -14,44 +14,74 @@ trait Friend{
   def isFriend()=println(s"Your friend is $name")
 }
 
-class Man extends Human{
+class Man(n:String) extends Human(n){
   
 }
 
-class Woman extends Human{
+class Woman(n:String) extends Human(n){
   
 }
 
 abstract class Animal{
-  def makeNoise: String;
+  def makeNoise(){
+    println("kappa")
+  }
 }
 
 class Dog(val name: String) extends Animal with Friend{
+    
 }
 
 class Cat(val name: String) extends Animal{
 }
 
 trait Flying extends Animal{
+  val flyMessage: String
   def fly()
+  override def makeNoise(){
+    super.makeNoise()
+    println("flap")
+  }
 }
 
 trait Swimming extends Animal{
+  val swimMessage: String
   def swim()
+    override def makeNoise(){
+    super.makeNoise()
+    println("splash")
+  }
 }
-abstract class Bird extends Animal{
-  val name: String
+abstract class Bird(n:String) extends Animal{
+  val name = n
+  override def makeNoise(){
+    super.makeNoise()
+    println("cheep")
+  }
 }
-class Frigatebird extends Bird with Flying{
+class Frigatebird(n:String) extends Bird(n) with Flying{
   
 }
-class Duck extends Bird with Flying with Swimming{
+class Duck(n:String) extends Bird(n) with Flying with Swimming{
+  override def makeNoise(){
+    super.makeNoise()
+    println("quak")
+  }
+}
+class Ostrich(n:String) extends Bird(n){
   
 }
-class Ostrich extends Bird{
+class Penguin(n:String) extends Bird(n) with Swimming{
   
 }
-class Penguin extends Bird with Swimming{
+
+object doSomething{
+  
+  def main(args: Array[String]): Unit = {
+    
+    
+    
+  }
   
 }
 

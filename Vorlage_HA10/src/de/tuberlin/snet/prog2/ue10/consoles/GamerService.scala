@@ -7,7 +7,9 @@ import de.tuberlin.snet.prog2.ue10.consoles.GamerService.GameHolder
 object GamerService {
 
   def main(args: Array[String]): Unit = {
-
+  
+    println("Jetzt gehts")
+    
     val ps = new Console("Sony", "PlayStation 5", new Date(2017, 8, 23), None, List(new BlueRay), UHD);
 
     val atari = new Console("Atari", "2600", new Date(1977, 10, 1), None, List(new Cartridge), HD);
@@ -25,20 +27,20 @@ object GamerService {
     println();  
     
     GameHolder.Game("BattleField 0", "EA", MutableList(ps, atari))
-    GameHolder.Game("BattleField 0", "EA", MutableList(switch))
+    GameHolder.Game("BattleField 0", "EA", MutableList(ps,switch))
     
     GameHolder.Game("BattleField 0", "Ubisoft", MutableList(switch))
     GameHolder.Game("BattleField 0", "Bethesda", MutableList(switch))
     GameHolder.Game.gamesList.foreach(x=> println(x))
     
 
-//    println(new Game("BattleField 0", "Crytec", MutableList(switch)))
+//    println(new GameHolder.Game("BattleField 0", "Crytec", MutableList(switch)))
 
   }
 
   class Console(var hersteller: String, var model: String, var released: Date, var wifi: Option[String], var formats: List[MediaFormat], var disp: Resolution) {
 
-    override def toString = model + " von " + hersteller + " löst auf in " + disp //+ " und erkennt Spiele auf " + formats;
+    override def toString = model + " von " + hersteller + " löst auf in " + disp + " und erkennt Spiele auf " + formats;
 
   }
 
@@ -75,7 +77,7 @@ object GamerService {
 
   object GameHolder {
 
-    class Game(private val name: String, private val hersteller: String, private val consoles: MutableList[Console]) {
+    class Game private(private val name: String, private val hersteller: String, private val consoles: MutableList[Console]) {
 
       def isSupported(c: Console): Boolean = {
         return consoles.contains(c);
@@ -92,7 +94,7 @@ object GamerService {
 
         if (gamesList.toStream.exists(x => x.name == name && x.hersteller == hersteller)) {
 
-          gamesList.toStream.withFilter(x => x.name == name && x.hersteller == hersteller).foreach(x => consoles.foreach(y => if (x.consoles.contains(y)) {} else { x.consoles.+=(y) }));
+          gamesList.toStream.withFilter(x => x.name == name && x.hersteller == hersteller).foreach(x => x.consoles.++=((consoles).distinct))
 
         } else {
 
