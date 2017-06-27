@@ -22,20 +22,23 @@ object GamerService {
 
     println(List(ps, atari, switch).sortWith((x, y) => x.disp.pixel > y.disp.pixel));
 
+    println();  
+    
     GameHolder.Game("BattleField 0", "EA", MutableList(ps, atari))
     GameHolder.Game("BattleField 0", "EA", MutableList(switch))
+    
+    GameHolder.Game("BattleField 0", "Ubisoft", MutableList(switch))
+    GameHolder.Game("BattleField 0", "Bethesda", MutableList(switch))
+    GameHolder.Game.gamesList.foreach(x=> println(x))
+    
 
-    GameHolder.Game("BattleField 0", "Ubihard", MutableList(switch))
-    GameHolder.Game("BattleField 0", "Betester", MutableList(switch))
-    println(GameHolder.Game.gamesList);
-
-//    println(new Game("BattleField 0", "Ubihard2", MutableList(switch)))
+//    println(new Game("BattleField 0", "Crytec", MutableList(switch)))
 
   }
 
   class Console(var hersteller: String, var model: String, var released: Date, var wifi: Option[String], var formats: List[MediaFormat], var disp: Resolution) {
 
-    override def toString = model //+ " von " + hersteller + " löst auf in " + disp + " und erkennt Spiele auf " + formats;
+    override def toString = model + " von " + hersteller + " löst auf in " + disp //+ " und erkennt Spiele auf " + formats;
 
   }
 
@@ -78,10 +81,10 @@ object GamerService {
         return consoles.contains(c);
       }
 
-      override def toString = name + " vom Hersteller " + hersteller + " jetzt erhältlich für " + consoles;
+      override def toString = name + " vom Publisher " + hersteller + " jetzt erhältlich für " + consoles;
     }
 
-    object Game {
+    object Game{
 
       val gamesList: MutableList[Game] = MutableList();
 
@@ -98,8 +101,8 @@ object GamerService {
           newGame;
 
         }
-
-      }
+     }
+    
     }
   }
 
