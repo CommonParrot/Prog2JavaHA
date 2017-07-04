@@ -5,23 +5,26 @@ object PatternMatch {
   
   case class Car(hersteller: String, typ: String, baujahr: Int, motorart: Motorart, hu: Boolean, leistungInKW: Int)
   
-  class Motorart
+  sealed trait Motorart
+  //statt class Motorart
   
   case object Diesel extends Motorart
   case object Benzin extends Motorart
   case object Elektro extends Motorart
   case object Gas extends Motorart
   
-  def matchCar(x: Car){
+  def matchCar(x: Any){
     
     x match{
-      
-      case Car("VW",_,_,Diesel,_,_) => println(x)
+      //
+      //VOM SPEZIELLEN IMMER INS ALLGEMEINE!11!!!
+      //
+      case Car(hersteller @ "VW",_,_,Diesel,_,_) => println(hersteller)//       @ Um auf Variblen in unapply zuzugreifen
       case Car("Porsche",_,_,Benzin,_,300) => println(x)
       case Car(_,"S",_,Elektro,_,_) => println(x)
       case Car(_,_,1992,_,false,_) => println(x)
-      case Car(_,_,_,_,false,_) => println(x)
       case Car(_,_,1985,_,_,_) => println(x)
+      case Car(_,_,_,_,false,_) => println(x)
       case _=> println("Something isn't right")
     }
     

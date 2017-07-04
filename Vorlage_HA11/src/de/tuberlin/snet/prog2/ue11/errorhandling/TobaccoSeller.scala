@@ -50,11 +50,13 @@ object TobaccoSeller extends App {
   tryToBuyCigarettes(adult)
   tryToBuyCigarettes(adult)
 
-  case class underageException(error: String) extends Exception
-  case class outOfStockException(error: String) extends Exception
+  case class underageException(error: String) extends Exception(error)
+  case class outOfStockException(error: String) extends Exception(error)
 
   def tryToBuyCigarettes(p: Person) = {
-
+    
+    println(s"${p.name} tries to buy cigarettes.")
+    
     val pro: Option[Cigarette] = buyCigarette(p)
     
     pro match{
@@ -63,16 +65,15 @@ object TobaccoSeller extends App {
     }
 
 //        try {
-//          println(s"${p.name} tries to buy cigarettes.")
 //          buyCigarette(p)
 //          println(s"${p.name} got ciggis.")
 //        } catch {
 //          case x: underageException => {
-//            println(x.error)
+//            println(x.getMessage)
 //            println(s"${p.name} got no ciggis.")
 //          }
 //          case x: outOfStockException => {
-//            println(x.error)
+//            println(x.getMessage)
 //            println(s"${p.name} got no ciggis.")
 //          }
 //    

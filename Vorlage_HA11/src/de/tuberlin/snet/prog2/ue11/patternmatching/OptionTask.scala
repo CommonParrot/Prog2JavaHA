@@ -2,14 +2,14 @@ package de.tuberlin.snet.prog2.ue11.patternmatching
 
 object OptionTask {
 
-  abstract class myOption[T] {
+ sealed abstract class myOption[+T] {
     
     def get: T
     
     def isDefined= isInstanceOf[mySome[T]]
   
     
-    def getOrElse[A>:T](default: => A): A= if(isDefined) get else default
+    final def getOrElse[A>:T](default: => A): A= if(isDefined) get else default
     
   }
   
@@ -23,7 +23,7 @@ object OptionTask {
     }
   }
 
-  case class mySome[T](value: T) extends myOption[T] {
+  final case class mySome[+T](value: T) extends myOption[T] {
      def get: T= value
   }
 
