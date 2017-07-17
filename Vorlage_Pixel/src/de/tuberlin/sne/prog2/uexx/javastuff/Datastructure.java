@@ -14,14 +14,11 @@ public class Datastructure {
 		LinkedBlockingQueue<File> fl = new LinkedBlockingQueue<File>();
 		
 		LinkedBlockingQueue<File> folders = foldering(new File("C:\\Users\\jakob\\Documents\\My Games"), fl);
-		
-		LinkedList<String> blockingqueue = new LinkedList<String>();
-		
-		//
-		
-		
+	
 		for(File filo : folders){
+			
 			System.out.println(filo.toString());
+			
 		}
 		
 	}

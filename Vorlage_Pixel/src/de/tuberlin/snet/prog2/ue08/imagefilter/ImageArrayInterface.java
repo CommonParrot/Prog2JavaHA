@@ -1,5 +1,7 @@
 package de.tuberlin.snet.prog2.ue08.imagefilter;
 
+import java.util.Optional;
+
 public interface ImageArrayInterface<E> {
 
 	public E get(int x, int y);
