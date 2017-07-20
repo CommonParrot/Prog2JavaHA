@@ -13,17 +13,6 @@ public class ImageArray extends ArrayList<Pixel> implements ImageArrayInterface<
 		return this.stream().filter(p -> p.x == x && p.y == y).findFirst().orElse(new Pixel(-1,-1, null));
 
 	}
-
-	@Override
-	public void add(int x, int y, Pixel element) {
-
-		if (this.stream().anyMatch(p -> p.x == x && p.y == y)) {
-			this.stream().forEach(p -> p = (p.x == x && p.y == y) ? (Pixel) element : p);
-		}
-
-		else super.add((Pixel) element);
-
-	}
 	
 	public ImageArray(double h, double w){
 		
@@ -63,6 +52,11 @@ public class ImageArray extends ArrayList<Pixel> implements ImageArrayInterface<
 	public int getIndex(int x, int y) {
 		
 		return this.indexOf(this.get(x,y));
+		
+	}
+
+	@Override
+	public void add(int x, int y, Pixel element) {
 		
 	}
 

@@ -29,7 +29,7 @@ import javafx.stage.Stage;
  */
 public class ImageFilter extends Application {
 
-	final static String TU_LOGO = "file:C:\\Users\\Jakob\\Pictures\\Saved Pictures\\466544911337116586_1448449608.jpg";
+	final static String TU_LOGO = "file:C:\\Users\\Jakob\\Pictures\\Bmes3-QIUAAutW6.jpg thumb.jpg";
 	final static String PIC1 = "file:pic1.jpg";
 	final static String PIC2 = "file:pic2.bmp";
 
@@ -55,17 +55,20 @@ public class ImageFilter extends Application {
 
 		// transform image to collection of pixels
 		PixelReader pixelReader = image.getPixelReader();
-		Collection<Pixel> imagePixels;
+		ImageArray imagePixels;
 		imagePixels = readImage(pixelReader);
 		// manipulate image
-		// imagePixels = manipulateImage(imagePixels);
+		imagePixels = manipulateImage(imagePixels);
 
 		// TODO: erzeuge und manipuliere 2d-Array
 		ImageArray pixelsArray = new ImageArray(image.getHeight(), image.getWidth());
 		imagePixels.stream().forEach(x -> pixelsArray.add(x));
-		synchronized(pixelsArray){
-		manipulateImage(pixelsArray).stream().forEach(x -> pixelsArray.add(x));
+		ImageArray manipulated = (ImageArray) manipulateImage(pixelsArray);
+		pixelsArray.clear();
+		for(Pixel x : manipulated){
+			pixelsArray.add(manipulated.getIndex(x.x, x.y), x);
 		}
+		
 		// write writableImage via pixelWriter
 		WritableImage writableImage = new WritableImage(width, height);
 		PixelWriter pixelWriter = writableImage.getPixelWriter();
@@ -90,19 +93,30 @@ public class ImageFilter extends Application {
 	 * @return manipulated image pixels
 	 */
 	private Collection<Pixel> manipulateImage(ImageArray imagePixels) {
+		
+		ArrayList<Color> colors = new ArrayList<>();
+		
+		double blue;
+		double green;
+		double red;
+		double opacity;
+		int colorSize;
+		
 		for (int i = 0; i < imagePixels.size(); ++i) {
-
-			ArrayList<Color> colors = new ArrayList<>();
 			
-			tryAddColor(colors,imagePixels.get(imagePixels.get(i).x - 1, imagePixels.get(i).y));
-			tryAddColor(colors,imagePixels.get(imagePixels.get(i).x + 1, imagePixels.get(i).y));
-			tryAddColor(colors,imagePixels.get(imagePixels.get(i).x, imagePixels.get(i).y - 1));
-			tryAddColor(colors,imagePixels.get(imagePixels.get(i).x, imagePixels.get(i).y + 1));
-
-			double blue = 0;
-			double green = 0;
-			double red = 0;
-			double opacity = 0;
+			blue = 0;
+			green = 0;
+			red = 0;
+			opacity = 0;
+			
+			colors.clear();
+			
+			Pixel currP = imagePixels.get(i);
+			
+			tryAddColor(colors,imagePixels.get(currP.x - 1, currP.y));
+			tryAddColor(colors,imagePixels.get(currP.x + 1, currP.y));
+			tryAddColor(colors,imagePixels.get(currP.x, currP.y - 1));
+			tryAddColor(colors,imagePixels.get(currP.x, currP.y + 1));
 
 			for (Color x : colors) {
 
@@ -112,10 +126,12 @@ public class ImageFilter extends Application {
 				opacity = opacity + x.getOpacity();
 
 			}
-
-			Color neue = new Color(red / colors.size(), green / colors.size(), blue / colors.size(),
-					opacity / colors.size());
-
+			
+			colorSize = colors.size();
+			
+			Color neue = new Color(red / colorSize, green / colorSize, blue / colorSize,
+					opacity / colorSize);
+			
 			imagePixels.get(i).color = neue;
 		}
 
