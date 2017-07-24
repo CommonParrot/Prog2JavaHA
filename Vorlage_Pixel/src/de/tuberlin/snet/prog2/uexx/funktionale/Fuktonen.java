@@ -28,10 +28,10 @@ public class Fuktonen {
 	
 }
 
-public interface equality<T>{
-	public Boolean equals(T x1, T x2);
-}
-
-public interface parsing{
-	public int parseInt(String x1);
-}
+//public interface equality<T>{
+//	public Boolean equals(T x1, T x2);
+//}
+//
+//public interface parsing{
+//	public int parseInt(String x1);
+//}

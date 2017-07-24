@@ -1,12 +1,10 @@
 package de.tuberlin.sne.prog2.uexx.javastuff;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.concurrent.LinkedBlockingQueue;
 
 
+@SuppressWarnings("unused")
 public class Datastructure {
 	
 	public static void main(String[] args) {

@@ -56,34 +56,34 @@ public class ImageFilter extends Application {
 		// transform image to collection of pixels
 		PixelReader pixelReader = image.getPixelReader();
 		ImageArray imagePixels;
-		imagePixels = readImage(pixelReader);
-		// manipulate image
-		imagePixels = manipulateImage(imagePixels);
+//		imagePixels = readImage(pixelReader);
+//		// manipulate image
+//		imagePixels = manipulateImage(imagePixels);
 
-		// TODO: erzeuge und manipuliere 2d-Array
-		ImageArray pixelsArray = new ImageArray(image.getHeight(), image.getWidth());
-		imagePixels.stream().forEach(x -> pixelsArray.add(x));
-		ImageArray manipulated = (ImageArray) manipulateImage(pixelsArray);
-		pixelsArray.clear();
-		for(Pixel x : manipulated){
-			pixelsArray.add(manipulated.getIndex(x.x, x.y), x);
-		}
-		
-		// write writableImage via pixelWriter
-		WritableImage writableImage = new WritableImage(width, height);
-		PixelWriter pixelWriter = writableImage.getPixelWriter();
-		pixelsArray.forEach(p -> pixelWriter.setColor(p.x, p.y, p.color));
-
-		// set the manipulated image to the view
-		ImageView destImageView = new ImageView();
-		destImageView.setImage(writableImage);
-
-		FlowPane root = new FlowPane(Orientation.VERTICAL);
-		root.getChildren().addAll(imageView, destImageView);
-		Scene scene = new Scene(root);
-		primaryStage.setTitle("TU-Filter");
-		primaryStage.setScene(scene);
-		primaryStage.show();
+//		// TODO: erzeuge und manipuliere 2d-Array
+//		ImageArray pixelsArray = new ImageArray(image.getHeight(), image.getWidth());
+//		imagePixels.stream().forEach(x -> pixelsArray.add(x));
+//		ImageArray manipulated = (ImageArray) manipulateImage(pixelsArray);
+//		pixelsArray.clear();
+//		for(Pixel x : manipulated){
+//			pixelsArray.add(manipulated.getIndex(x.x, x.y), x);
+//		}
+//		
+//		// write writableImage via pixelWriter
+//		WritableImage writableImage = new WritableImage(width, height);
+//		PixelWriter pixelWriter = writableImage.getPixelWriter();
+//		pixelsArray.forEach(p -> pixelWriter.setColor(p.x, p.y, p.color));
+//
+//		// set the manipulated image to the view
+//		ImageView destImageView = new ImageView();
+//		destImageView.setImage(writableImage);
+//
+//		FlowPane root = new FlowPane(Orientation.VERTICAL);
+//		root.getChildren().addAll(imageView, destImageView);
+//		Scene scene = new Scene(root);
+//		primaryStage.setTitle("TU-Filter");
+//		primaryStage.setScene(scene);
+//		primaryStage.show();
 	}
 
 	/**
