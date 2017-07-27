@@ -40,9 +40,9 @@ object TobaccoSeller extends App {
     }
   }
 
-  val child = new Person(age = 12, "Child")
-  val teenager = new Person(age = 16, "Teenager")
-  val adult = new Person(age = 25, "Adult")
+  val child = new Person(12, "Child")
+  val teenager = new Person(16, "Teenager")
+  val adult = new Person(name="Adult",age=120)
 
   tryToBuyCigarettes(child)
   tryToBuyCigarettes(teenager)

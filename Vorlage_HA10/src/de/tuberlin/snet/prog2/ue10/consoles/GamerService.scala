@@ -7,8 +7,6 @@ import de.tuberlin.snet.prog2.ue10.consoles.GamerService.GameHolder
 object GamerService {
 
   def main(args: Array[String]): Unit = {
-  
-    println("Jetzt gehts")
     
     val ps = new Console("Sony", "PlayStation 5", new Date(2017, 8, 23), None, List(new BlueRay), UHD);
 
@@ -32,6 +30,10 @@ object GamerService {
     GameHolder.Game("BattleField 0", "Ubisoft", MutableList(switch))
     GameHolder.Game("BattleField 0", "Bethesda", MutableList(switch))
     GameHolder.Game.gamesList.foreach(x=> println(x))
+    
+    val drei:List[Any] = List(1,2,3,"Deine mom hat neulich angerufen")
+    
+    val vernünftig = drei(0)
     
 
 //    println(new GameHolder.Game("BattleField 0", "Crytec", MutableList(switch)))
@@ -94,12 +96,12 @@ object GamerService {
 
         if (gamesList.toStream.exists(x => x.name == name && x.hersteller == hersteller)) {
 
-          gamesList.toStream.withFilter(x => x.name == name && x.hersteller == hersteller).foreach(x => x.consoles.++=((consoles).distinct))
+          gamesList.toStream.withFilter(x => x.name == name && x.hersteller == hersteller).foreach(x => x.consoles++=((consoles).distinct))
 
         } else {
 
           var newGame: Game = new Game(name, hersteller, consoles);
-          gamesList.+=:(newGame);
+          gamesList+=(newGame);
           newGame;
 
         }

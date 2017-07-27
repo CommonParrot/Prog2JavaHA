@@ -3,8 +3,10 @@ package de.tuberlin.snet.prog2.ue08.scalaFuncHighOrder
 object FuncHighOrder {
 
   
-  val biggerNum: (Int, Int) => (Int) = (m: Int, n: Int) => Integer.max(m, n)
-
+  val biggerNum = (m: Int, n: Int) => Integer.max(m, n)
+  
+  def biggerNums = (m:Int,n:Int)=>Integer.max(_,_)
+  
   val higher: (Int, Int, (Int, Int) => (Int)) => (Int) = (a, b, biggerNum) => biggerNum(a, b)
 
   var i = util.Random.nextInt
@@ -13,7 +15,7 @@ object FuncHighOrder {
 
   
   
-  val prod: (Int) => ((Int) => (Int)) = (a: Int) => ((n: Int) => a * n)
+  val prod= (a: Int) => ((n: Int) => a * n)
 
   val produkt = prod(4)
 

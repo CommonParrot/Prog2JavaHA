@@ -78,9 +78,9 @@ public class CSVMain {
 							  				  	} 
 							  				return b.geschlecht==2;})
 									
-									  .mapToDouble(d -> d.hauefigkeit)
+									  .map(d -> d.hauefigkeit)
 									  .reduce(Double::sum)
-									  .getAsDouble();
+									  .get();
 		
 		long stopTime = System.currentTimeMillis();
 	    long elapsedTime = stopTime - startTime;

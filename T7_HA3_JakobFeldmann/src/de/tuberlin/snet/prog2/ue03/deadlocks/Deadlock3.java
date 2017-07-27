@@ -13,21 +13,14 @@ public class Deadlock3 implements Runnable {
 	
 	public void run() {
 		long startTime = System.currentTimeMillis();
-		try {
-			while (System.currentTimeMillis() - startTime < 10000) {
-				synchronized (intList) {
-					Integer number = intList.removeFirst();
-					System.out.println(number + " removed");
-					number = (number + 3) % 21;
-					intList.addLast(number);
-					System.out.println(number + " added");
-					intList.wait();
-					intList.notifyAll();
-				}
+		while (System.currentTimeMillis() - startTime < 10) {
+			synchronized (intList) {
+				Integer number = intList.removeFirst();
+				System.out.println(number + " removed");
+				number = (number + 3) % 21;
+				intList.addLast(number);
+				System.out.println(number + " added");
 			}
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
 		}
 	}
 

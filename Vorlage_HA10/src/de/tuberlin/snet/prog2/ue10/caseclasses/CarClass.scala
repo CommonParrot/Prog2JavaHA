@@ -11,8 +11,8 @@ object CarClass {
   }
   
   def unapply(car: CarClass): Option[(String, Int, Boolean)] = {
-    if (car == null) None
-    else Some((car.owner, car.seatCount, car.hu))
+    if(car != null) Some((car.owner, car.seatCount, car.hu))
+    else None
   }
   
   def main(args: Array[String]): Unit = {

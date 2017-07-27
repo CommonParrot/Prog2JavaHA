@@ -42,6 +42,7 @@ trait AdminProperties{
 
 trait StuffProperties{
   val gehalt:Double
+  def bekommtgehalt(x: Int):Int = x*x
 }
 
 trait StudentProperties{

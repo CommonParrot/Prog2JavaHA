@@ -19,7 +19,7 @@ public class Deadlock1 implements Runnable {
 		System.out.println("Thread tut etwas.");
 	}
 	
-	public synchronized void setDone(boolean b) {
+	public void setDone(boolean b) {
 		done = b;
 	}
 

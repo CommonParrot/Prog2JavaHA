@@ -1,5 +1,7 @@
 package de.tuberlin.snet.prog2.ue02.scheduling;
 
+import java.util.concurrent.LinkedBlockingQueue;
+
 /**
  * Use this class to test your FIFOScheduler-class. Created by prog2-team and
  * you!
@@ -19,8 +21,6 @@ public class SchedulingMain {
 
 		schedule.addThread(prog2);
 		schedule.addThread(pi);
-		
-		
 		
 
 		schedule.start();

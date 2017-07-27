@@ -2,10 +2,13 @@ package de.tuberlin.snet.prog2.ue10.dataanalyst;
 
 
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import List;
 import de.tuberlin.snet.prog2.ue10.dataanalyst.CSVDataEntry;
 
 
@@ -29,7 +32,10 @@ public class CSVMain {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
+		
+		ArrayList<String> lol = (ArrayList<String>) Arrays.asList("sup1", "sup2", "sup3");
+		
+		
 		Stream<CSVDataEntry> streamDataset = csvManager.getDatasetStream();
 		
 		String bestArea = streamDataset.filter(d -> d.getAltersgruppe().equals("5_10")||d.getAltersgruppe().equals("10_15")||d.getAltersgruppe().equals("15_20")||!d.getStaatsangeh().equals("D"))
